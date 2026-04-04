@@ -1,0 +1,4038 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head itemscope="itemscope" itemtype="http://schema.org/WebSite">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="profile" href="https://gmpg.org/xfn/11" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="$CHIBIELON" />
+    <link rel="pingback" href="/xmlrpc.php" />
+    <title>$CHIBIELON</title>
+    <meta name="robots" content="max-image-preview:large" />
+    <style>
+      img:is([sizes="auto" i], [sizes^="auto," i]) {
+        contain-intrinsic-size: 3000px 1500px;
+      }
+    </style>
+    <meta itemprop="name" content="$CHIBIELON" />
+    <meta itemprop="url" content="/" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="$CHIBIELON &raquo; Feed"
+      href="/feed/"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="$CHIBIELON &raquo; Comments Feed"
+      href="/comments/feed/"
+    />
+    <script>
+      window._wpemojiSettings = {
+        baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
+        ext: ".png",
+        svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
+        svgExt: ".svg",
+        source: {
+          concatemoji: "\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.1",
+        },
+      };
+      /*! This file is auto-generated */
+      !(function (i, n) {
+        var o, s, e;
+        function c(e) {
+          try {
+            var t = { supportTests: e, timestamp: new Date().valueOf() };
+            sessionStorage.setItem(o, JSON.stringify(t));
+          } catch (e) {}
+        }
+        function p(e, t, n) {
+          e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+            e.fillText(t, 0, 0);
+          var t = new Uint32Array(
+              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+            ),
+            r =
+              (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+              e.fillText(n, 0, 0),
+              new Uint32Array(
+                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+              ));
+          return t.every(function (e, t) {
+            return e === r[t];
+          });
+        }
+        function u(e, t, n) {
+          switch (t) {
+            case "flag":
+              return n(
+                e,
+                "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
+                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
+              )
+                ? !1
+                : !n(
+                    e,
+                    "\ud83c\uddfa\ud83c\uddf3",
+                    "\ud83c\uddfa\u200b\ud83c\uddf3"
+                  ) &&
+                    !n(
+                      e,
+                      "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+                    );
+            case "emoji":
+              return !n(
+                e,
+                "\ud83d\udc26\u200d\u2b1b",
+                "\ud83d\udc26\u200b\u2b1b"
+              );
+          }
+          return !1;
+        }
+        function f(e, t, n) {
+          var r =
+              "undefined" != typeof WorkerGlobalScope &&
+              self instanceof WorkerGlobalScope
+                ? new OffscreenCanvas(300, 150)
+                : i.createElement("canvas"),
+            a = r.getContext("2d", { willReadFrequently: !0 }),
+            o = ((a.textBaseline = "top"), (a.font = "600 32px Arial"), {});
+          return (
+            e.forEach(function (e) {
+              o[e] = t(a, e, n);
+            }),
+            o
+          );
+        }
+        function t(e) {
+          var t = i.createElement("script");
+          (t.src = e), (t.defer = !0), i.head.appendChild(t);
+        }
+        "undefined" != typeof Promise &&
+          ((o = "wpEmojiSettingsSupports"),
+          (s = ["flag", "emoji"]),
+          (n.supports = { everything: !0, everythingExceptFlag: !0 }),
+          (e = new Promise(function (e) {
+            i.addEventListener("DOMContentLoaded", e, { once: !0 });
+          })),
+          new Promise(function (t) {
+            var n = (function () {
+              try {
+                var e = JSON.parse(sessionStorage.getItem(o));
+                if (
+                  "object" == typeof e &&
+                  "number" == typeof e.timestamp &&
+                  new Date().valueOf() < e.timestamp + 604800 &&
+                  "object" == typeof e.supportTests
+                )
+                  return e.supportTests;
+              } catch (e) {}
+              return null;
+            })();
+            if (!n) {
+              if (
+                "undefined" != typeof Worker &&
+                "undefined" != typeof OffscreenCanvas &&
+                "undefined" != typeof URL &&
+                URL.createObjectURL &&
+                "undefined" != typeof Blob
+              )
+                try {
+                  var e =
+                      "postMessage(" +
+                      f.toString() +
+                      "(" +
+                      [JSON.stringify(s), u.toString(), p.toString()].join(
+                        ","
+                      ) +
+                      "));",
+                    r = new Blob([e], { type: "text/javascript" }),
+                    a = new Worker(URL.createObjectURL(r), {
+                      name: "wpTestEmojiSupports",
+                    });
+                  return void (a.onmessage = function (e) {
+                    c((n = e.data)), a.terminate(), t(n);
+                  });
+                } catch (e) {}
+              c((n = f(s, u, p)));
+            }
+            t(n);
+          })
+            .then(function (e) {
+              for (var t in e)
+                (n.supports[t] = e[t]),
+                  (n.supports.everything =
+                    n.supports.everything && n.supports[t]),
+                  "flag" !== t &&
+                    (n.supports.everythingExceptFlag =
+                      n.supports.everythingExceptFlag && n.supports[t]);
+              (n.supports.everythingExceptFlag =
+                n.supports.everythingExceptFlag && !n.supports.flag),
+                (n.DOMReady = !1),
+                (n.readyCallback = function () {
+                  n.DOMReady = !0;
+                });
+            })
+            .then(function () {
+              return e;
+            })
+            .then(function () {
+              var e;
+              n.supports.everything ||
+                (n.readyCallback(),
+                (e = n.source || {}).concatemoji
+                  ? t(e.concatemoji)
+                  : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)));
+            }));
+      })((window, document), window._wpemojiSettings);
+    </script>
+    <style id="wp-emoji-styles-inline-css">
+      img.wp-smiley,
+      img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+      }
+    </style>
+    <style id="ctc-term-title-style-inline-css">
+      .ctc-block-controls-dropdown .components-base-control__field {
+        margin: 0 !important;
+      }
+    </style>
+    <style id="ctc-copy-button-style-inline-css">
+      .wp-block-ctc-copy-button {
+        font-size: 14px;
+        line-height: normal;
+        padding: 8px 16px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: inherit;
+        border-radius: 4px;
+        cursor: pointer;
+        display: inline-block;
+      }
+
+      .ctc-copy-button-textarea {
+        display: none !important;
+      }
+    </style>
+    <style id="ctc-copy-icon-style-inline-css">
+      .wp-block-ctc-copy-icon .ctc-block-copy-icon {
+        background: rgba(0, 0, 0, 0);
+        padding: 0;
+        margin: 0;
+        position: relative;
+        cursor: pointer;
+      }
+
+      .wp-block-ctc-copy-icon .ctc-block-copy-icon .check-icon {
+        display: none;
+      }
+
+      .wp-block-ctc-copy-icon .ctc-block-copy-icon svg {
+        height: 1em;
+        width: 1em;
+      }
+
+      .wp-block-ctc-copy-icon .ctc-block-copy-icon::after {
+        position: absolute;
+        content: attr(aria-label);
+        padding: 0.5em 0.75em;
+        right: 100%;
+        color: #fff;
+        background: #24292f;
+        font-size: 11px;
+        border-radius: 6px;
+        line-height: 1;
+        right: 100%;
+        bottom: 50%;
+        margin-right: 6px;
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
+      }
+
+      .wp-block-ctc-copy-icon .ctc-block-copy-icon::before {
+        content: "";
+        top: 50%;
+        bottom: 50%;
+        left: -7px;
+        margin-top: -6px;
+        border: 6px solid rgba(0, 0, 0, 0);
+        border-left-color: #24292f;
+        position: absolute;
+      }
+
+      .wp-block-ctc-copy-icon .ctc-block-copy-icon::after,
+      .wp-block-ctc-copy-icon .ctc-block-copy-icon::before {
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: opacity 0.2s ease-in-out,
+          visibility 0.2s ease-in-out;
+        transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+      }
+
+      .wp-block-ctc-copy-icon .ctc-block-copy-icon.copied::after,
+      .wp-block-ctc-copy-icon .ctc-block-copy-icon.copied::before {
+        opacity: 1;
+        visibility: visible;
+        -webkit-transition: opacity 0.2s ease-in-out,
+          visibility 0.2s ease-in-out;
+        transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+      }
+
+      .wp-block-ctc-copy-icon .ctc-block-copy-icon.copied .check-icon {
+        display: inline-block;
+      }
+
+      .wp-block-ctc-copy-icon .ctc-block-copy-icon.copied .copy-icon {
+        display: none !important;
+      }
+
+      .ctc-copy-icon-textarea {
+        display: none !important;
+      }
+    </style>
+    <style id="ctc-social-share-style-inline-css">
+      .wp-block-ctc-social-share {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .wp-block-ctc-social-share svg {
+        height: 16px;
+        width: 16px;
+      }
+
+      .wp-block-ctc-social-share a {
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+      }
+
+      .wp-block-ctc-social-share a:focus {
+        outline: none;
+      }
+    </style>
+    <style id="classic-theme-styles-inline-css">
+      /*! This file is auto-generated */
+      .wp-block-button__link {
+        color: #fff;
+        background-color: #32373c;
+        border-radius: 9999px;
+        box-shadow: none;
+        text-decoration: none;
+        padding: calc(0.667em + 2px) calc(1.333em + 2px);
+        font-size: 1.125em;
+      }
+
+      .wp-block-file__button {
+        background: #32373c;
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+    <style id="global-styles-inline-css">
+      :root {
+        --wp--preset--aspect-ratio--square: 1;
+        --wp--preset--aspect-ratio--4-3: 4/3;
+        --wp--preset--aspect-ratio--3-4: 3/4;
+        --wp--preset--aspect-ratio--3-2: 3/2;
+        --wp--preset--aspect-ratio--2-3: 2/3;
+        --wp--preset--aspect-ratio--16-9: 16/9;
+        --wp--preset--aspect-ratio--9-16: 9/16;
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+          135deg,
+          rgba(6, 147, 227, 1) 0%,
+          rgb(155, 81, 224) 100%
+        );
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+          135deg,
+          rgb(122, 220, 180) 0%,
+          rgb(0, 208, 130) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+          135deg,
+          rgba(252, 185, 0, 1) 0%,
+          rgba(255, 105, 0, 1) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+          135deg,
+          rgba(255, 105, 0, 1) 0%,
+          rgb(207, 46, 46) 100%
+        );
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+          135deg,
+          rgb(238, 238, 238) 0%,
+          rgb(169, 184, 195) 100%
+        );
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+          135deg,
+          rgb(74, 234, 220) 0%,
+          rgb(151, 120, 209) 20%,
+          rgb(207, 42, 186) 40%,
+          rgb(238, 44, 130) 60%,
+          rgb(251, 105, 98) 80%,
+          rgb(254, 248, 76) 100%
+        );
+        --wp--preset--gradient--blush-light-purple: linear-gradient(
+          135deg,
+          rgb(255, 206, 236) 0%,
+          rgb(152, 150, 240) 100%
+        );
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(
+          135deg,
+          rgb(254, 205, 165) 0%,
+          rgb(254, 45, 45) 50%,
+          rgb(107, 0, 62) 100%
+        );
+        --wp--preset--gradient--luminous-dusk: linear-gradient(
+          135deg,
+          rgb(255, 203, 112) 0%,
+          rgb(199, 81, 192) 50%,
+          rgb(65, 88, 208) 100%
+        );
+        --wp--preset--gradient--pale-ocean: linear-gradient(
+          135deg,
+          rgb(255, 245, 203) 0%,
+          rgb(182, 227, 212) 50%,
+          rgb(51, 167, 181) 100%
+        );
+        --wp--preset--gradient--electric-grass: linear-gradient(
+          135deg,
+          rgb(202, 248, 128) 0%,
+          rgb(113, 206, 126) 100%
+        );
+        --wp--preset--gradient--midnight: linear-gradient(
+          135deg,
+          rgb(2, 3, 129) 0%,
+          rgb(40, 116, 252) 100%
+        );
+        --wp--preset--font-size--small: 13px;
+        --wp--preset--font-size--medium: 20px;
+        --wp--preset--font-size--large: 36px;
+        --wp--preset--font-size--x-large: 42px;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1),
+          6px 6px rgba(0, 0, 0, 1);
+        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+      }
+
+      :where(.is-layout-flex) {
+        gap: 0.5em;
+      }
+
+      :where(.is-layout-grid) {
+        gap: 0.5em;
+      }
+
+      body .is-layout-flex {
+        display: flex;
+      }
+
+      .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+
+      .is-layout-flex > :is(*, div) {
+        margin: 0;
+      }
+
+      body .is-layout-grid {
+        display: grid;
+      }
+
+      .is-layout-grid > :is(*, div) {
+        margin: 0;
+      }
+
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-amber
+        ) !important;
+      }
+
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(
+          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
+        ) !important;
+      }
+
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(
+          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
+        ) !important;
+      }
+
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
+        ) !important;
+      }
+
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
+        ) !important;
+      }
+
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(
+          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
+        ) !important;
+      }
+
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(
+          --wp--preset--gradient--cool-to-warm-spectrum
+        ) !important;
+      }
+
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+
+      :root :where(.wp-block-pullquote) {
+        font-size: 1.5em;
+        line-height: 1.6;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="ctc-copy-inline-css"
+      href="/wp-content/plugins/copy-the-code/assets/css/copy-inline.css?ver=4.0.4"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="liquid-wp-style-css"
+      href="/wp-content/themes/aihub/style.css?ver=6.7.1"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="liquid-utils-css"
+      href="/wp-content/uploads/liquid-styles/liquid-utils.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="liquid-theme-css"
+      href="/wp-content/themes/aihub/assets/css/themes/aihub/theme.css?ver=6.7.1"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="liquid-gdpr-box-css"
+      href="/wp-content/themes/aihub/assets/vendors/liquid-gdpr/liquid-gdpr.min.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-frontend-css"
+      href="/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.26.3"
+      media="all"
+    />
+    <style id="elementor-frontend-inline-css">
+      .elementor-kit-5 {
+      	--e-global-color-primary: #6449D1;
+      	--e-global-color-secondary: #927EBC;
+      	--e-global-color-text: #AAABC2;
+      	--e-global-color-9e7c121: #985199;
+      	--e-global-color-49245bb: #6449D1;
+      	--e-global-typography-b9344b4-font-family: "Syne";
+      	--e-global-typography-b9344b4-font-size: 18px;
+      	--e-global-typography-b9344b4-font-weight: 600;
+      	--e-global-typography-b9344b4-line-height: 24px;
+      	background-color: #000212;
+      	--lqd-body-font-family: "Be Vietnam Pro", Sans-serif;
+      	--lqd-body-font-size: 20px;
+      	--lqd-body-font-weight: 400;
+      	--lqd-body-line-height: 28px;
+      	--lqd-body-letter-spacing: 0.25px;
+      	--lqd-body-text-color: var(--e-global-color-text);
+      	--lqd-heading-font-family: "Syne", Sans-serif;
+      	--lqd-heading-font-weight: 700;
+      	--lqd-heading-color: #FFFFFF;
+      	--lqd-h2-font-size: 55px;
+      	--lqd-h2-line-height: 1em;
+      	--lqd-h2-letter-spacing: -0.02em;
+      	--lqd-h3-font-size: 28px;
+      	--lqd-h3-line-height: 31px;
+      	--lqd-btn-pt: 15px;
+      	--lqd-btn-pe: 30px;
+      	--lqd-btn-pb: 15px;
+      	--lqd-btn-ps: 30px;
+      	--lqd-btn-color: #FFFFFF;
+      	--lqd-btn-bg: radial-gradient(circle at 50% -75%, #985199 0%, #6449D1 100%);
+      	--lqd-btn-brrt: 99em;
+      	--lqd-btn-brre: 99em;
+      	--lqd-btn-brrb: 99em;
+      	--lqd-btn-brrs: 99em;
+      	--lqd-btn-bs: 0px 4px 1px 0px rgba(255, 255, 255, 0.1411764705882353) inset;
+      }
+
+      .elementor-section.elementor-section-boxed>.elementor-container {
+      	max-width: 1140px;
+      }
+
+      .e-con {
+      	--container-max-width: 1140px;
+      }
+
+      .elementor-widget:not(:last-child) {
+      	margin-block-end: 0px;
+      }
+
+      .elementor-element {
+      	--widgets-spacing: 0px 0px;
+      	--widgets-spacing-row: 0px;
+      	--widgets-spacing-column: 0px;
+      }
+
+      	{}
+
+      h1.entry-title {
+      	display: var(--page-title-display);
+      }
+
+      .elementor-kit-5.has-sidebar #lqd-contents-wrap {
+      	padding-top: 25px;
+      }
+
+      .elementor-kit-5 #lqd-gdpr {
+      	font-size: 14px;
+      }
+
+      .elementor-kit-5 .lqd-btn {
+      	font-size: 16px;
+      	font-weight: 700;
+      	line-height: 24px;
+      }
+
+      .elementor-kit-5 .lqd-btn:hover {
+      	--lqd-btn-bg: radial-gradient(circle farthest-side at 50% 50%, #985199 0%, #6449D1 100%);
+      	--lqd-btn-bs: 0px 0px 10px 2px rgba(255, 255, 255, 0.35) inset;
+      	transform: scale(1.1);
+      }
+
+      .elementor-kit-5 .lqd-btn:active,
+      .elementor-kit-5 .lqd-btn.lqd-is-active {
+      	--lqd-btn-bg: var(--e-global-color-49245bb);
+      	--lqd-btn-bs: 0px 4px 4px 0px rgba(0, 0, 0, 0.25098039215686274);
+      }
+
+      .elementor-kit-5 .lqd-btn:hover .lqd-btn-icon {
+      	transform: translateX(0.25em);
+      }
+
+      @media(max-width:1024px) {
+      	.elementor-section.elementor-section-boxed>.elementor-container {
+      		max-width: 1024px;
+      	}
+
+      	.e-con {
+      		--container-max-width: 1024px;
+      	}
+      }
+
+      @media(max-width:767px) {
+      	.elementor-section.elementor-section-boxed>.elementor-container {
+      		max-width: 767px;
+      	}
+
+      	.e-con {
+      		--container-max-width: 767px;
+      	}
+
+      	.elementor-kit-5 {
+      		--lqd-body-font-size: 18px;
+      		--lqd-h2-font-size: 43px;
+      		--lqd-h2-line-height: 1em;
+      		--lqd-h2-letter-spacing: 0px;
+      	}
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-e18bab3 {
+      	--display: flex;
+      	--min-height: 100vh;
+      	--flex-direction: column;
+      	--container-widget-width: calc((1 - var(--container-widget-flex-grow)) * 100%);
+      	--container-widget-height: initial;
+      	--container-widget-flex-grow: 0;
+      	--container-widget-align-self: initial;
+      	--flex-wrap-mobile: wrap;
+      	--justify-content: center;
+      	--align-items: center;
+      }
+
+      body:not(.rtl) .elementor-5800 .elementor-element.elementor-element-4ca3fff {
+      	left: 0px;
+      }
+
+      body.rtl .elementor-5800 .elementor-element.elementor-element-4ca3fff {
+      	right: 0px;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-4ca3fff {
+      	top: -20vh;
+      	z-index: 0;
+      	-webkit-mask-image: linear-gradient(0deg, #00000000 29.52%, #000000 50.95%, #00000000 85.24%);
+      	mask-image: linear-gradient(0deg, #00000000 29.52%, #000000 50.95%, #00000000 85.24%);
+      	mix-blend-mode: luminosity;
+      	height: 120vh;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-4ca3fff .lqd-lottie,
+      .elementor-5800 .elementor-element.elementor-element-4ca3fff>.elementor-widget-container {
+      	height: 120vh;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-1b1b436 {
+      	--display: flex;
+      	--position: absolute;
+      	--min-height: 100vh;
+      	--padding-top: 0px;
+      	--padding-bottom: 0px;
+      	--padding-left: 0px;
+      	--padding-right: 0px;
+      	top: 0px;
+      	--z-index: 0;
+      	-webkit-mask-image: linear-gradient(0deg, #00000000 0%, #000000 49.05%);
+      	mask-image: linear-gradient(0deg, #00000000 0%, #000000 49.05%);
+      	mix-blend-mode: lighten;
+      }
+
+      	{
+      		{
+      		SELECTOR
+      	}
+      }
+
+      .elementor-repeater-item-9783686-1b1b436 {
+      	background: linear-gradient(120deg, #7F9B9A 0%, #D1D1D1 39.39%, #00000000 72.22%);
+      }
+
+      body:not(.rtl) .elementor-5800 .elementor-element.elementor-element-1b1b436 {
+      	left: 0px;
+      }
+
+      body.rtl .elementor-5800 .elementor-element.elementor-element-1b1b436 {
+      	right: 0px;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-1b1b436.e-con,
+      .elementor-5800 .elementor-element.elementor-element-1b1b436>.elementor-widget-container {
+      	opacity: 0.14;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-6db2547 {
+      	--display: flex;
+      	--position: absolute;
+      	--padding-top: 0px;
+      	--padding-bottom: 0px;
+      	--padding-left: 0px;
+      	--padding-right: 0px;
+      	top: 41%;
+      	--z-index: 0;
+      	mix-blend-mode: lighten;
+      }
+
+      .elementor-widget-lqd-image .lqd-image-caption {
+      	color: var(--e-global-liquid-color-text);
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-e5a7712 {
+      	z-index: 2;
+      }
+
+      body:not(.rtl) .elementor-5800 .elementor-element.elementor-element-6db2547 {
+      	left: 10%;
+      }
+
+      body.rtl .elementor-5800 .elementor-element.elementor-element-6db2547 {
+      	right: 10%;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-33a0097 {
+      	--display: flex;
+      	--position: absolute;
+      	--padding-top: 0px;
+      	--padding-bottom: 0px;
+      	--padding-left: 0px;
+      	--padding-right: 0px;
+      	top: 10%;
+      	--z-index: 0;
+      	mix-blend-mode: lighten;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-9f15709 {
+      	z-index: 2;
+      }
+
+      body:not(.rtl) .elementor-5800 .elementor-element.elementor-element-33a0097 {
+      	right: 8%;
+      }
+
+      body.rtl .elementor-5800 .elementor-element.elementor-element-33a0097 {
+      	left: 8%;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-874d2c5 {
+      	--display: flex;
+      	--align-items: center;
+      	--container-widget-width: calc((1 - var(--container-widget-flex-grow)) * 100%);
+      	--z-index: 2;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-bd22a74>.elementor-widget-container {
+      	margin: 0px 0px 30px 0px;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-bd22a74 .lqd-tw-el {
+      	font-family: "Orbitron", Sans-serif;
+      	font-size: 92px;
+      	line-height: 1.1em;
+      	letter-spacing: 0.02em;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-bd22a74 {
+      	text-align: center;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-bd22a74 .lqd-tw-writer {
+      	background: linear-gradient(1deg, #927EBC 0%, #FFFFFF 100%);
+      	-webkit-background-clip: text !important;
+      	background-clip: text !important;
+      	-webkit-text-fill-color: transparent !important;
+      	text-fill-color: transparent !important;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-da50f7c {
+      	width: var(--container-widget-width, 79.744%);
+      	max-width: 79.744%;
+      	--container-widget-width: 79.744%;
+      	--container-widget-flex-grow: 0;
+      	text-align: center;
+      	--lqd-text-color: #8C8DA7;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-da50f7c>.elementor-widget-container {
+      	margin: 0px 0px 40px 0px;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-da50f7c.elementor-element {
+      	--flex-grow: 0;
+      	--flex-shrink: 0;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-da50f7c .lqd-text-el {
+      	font-family: "Orbitron", Sans-serif;
+      	font-size: 19px;
+      	font-weight: 600;
+      	line-height: 30px;
+      	color: var(--lqd-text-color);
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-1fa1eaf .lqd-btn:hover .lqd-btn-icon {
+      	transform: scale(1.1);
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-1fa1eaf .lqd-btn {
+      	font-family: "Orbitron", Sans-serif;
+      	--lqd-btn-i-mt: 0px;
+      	--lqd-btn-i-me: 0px;
+      	--lqd-btn-i-mb: 0px;
+      	--lqd-btn-i-ms: 10px;
+      	--lqd-outline-glow-w: 2px;
+      	--lqd-outline-glow-color: #FFFFFFD8;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-edd3c56 {
+      	--display: flex;
+      	--flex-direction: column;
+      	--container-widget-width: calc((1 - var(--container-widget-flex-grow)) * 100%);
+      	--container-widget-height: initial;
+      	--container-widget-flex-grow: 0;
+      	--container-widget-align-self: initial;
+      	--flex-wrap-mobile: wrap;
+      	--justify-content: center;
+      	--align-items: center;
+      	--margin-top: -20vh;
+      	--margin-bottom: 0;
+      	--margin-left: 0;
+      	--margin-right: 0;
+      	--padding-top: 0px;
+      	--padding-bottom: 0px;
+      	--padding-left: 0px;
+      	--padding-right: 0px;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-edd3c56,
+      .elementor-5800 .elementor-element.elementor-element-edd3c56>.e-con-inner {
+      	perspective: 900px;
+      }
+
+      body:not(.rtl) .elementor-5800 .elementor-element.elementor-element-0e1bb94 {
+      	left: 4%;
+      }
+
+      body.rtl .elementor-5800 .elementor-element.elementor-element-0e1bb94 {
+      	right: 4%;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-0e1bb94 {
+      	top: -43%;
+      	z-index: 0;
+      	width: 800px;
+      	height: 800px;
+      	--glow-blur-value: 150px;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-0e1bb94 svg {
+      	opacity: 0.15;
+      }
+
+      body:not(.rtl) .elementor-5800 .elementor-element.elementor-element-5da9617 {
+      	left: 41%;
+      }
+
+      body.rtl .elementor-5800 .elementor-element.elementor-element-5da9617 {
+      	right: 41%;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-5da9617 {
+      	top: -21%;
+      	z-index: 0;
+      	width: 800px;
+      	height: 800px;
+      	--glow-blur-value: 150px;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-5da9617 svg {
+      	opacity: 0.15;
+      }
+
+      .elementor-5800 .elementor-element.elementor-element-f76c622 {
+      	width: var(--container-widget-width, 1000px);
+      	max-width: 1000px;
+      	--container-widget-width: 1000px;
+      	--container-widget-flex-grow: 0;
+      	z-index: 2;
+      }
+
+      @media(max-width:1024px) {
+      	body:not(.rtl) .elementor-5800 .elementor-element.elementor-element-6db2547 {
+      		left: 0%;
+      	}
+
+      	body.rtl .elementor-5800 .elementor-element.elementor-element-6db2547 {
+      		right: 0%;
+      	}
+
+      	.elementor-5800 .elementor-element.elementor-element-6db2547 {
+      		top: 40%;
+      	}
+
+      	body:not(.rtl) .elementor-5800 .elementor-element.elementor-element-33a0097 {
+      		right: 0%;
+      	}
+
+      	body.rtl .elementor-5800 .elementor-element.elementor-element-33a0097 {
+      		left: 0%;
+      	}
+
+      	.elementor-5800 .elementor-element.elementor-element-33a0097 {
+      		top: 0%;
+      	}
+
+      	.elementor-5800 .elementor-element.elementor-element-e18bab3 {
+      		--padding-top: 100px;
+      		--padding-bottom: 40px;
+      		--padding-left: 10px;
+      		--padding-right: 10px;
+      	}
+
+      	.elementor-5800 .elementor-element.elementor-element-f76c622 {
+      		--container-widget-width: 90%;
+      		--container-widget-flex-grow: 0;
+      		width: var(--container-widget-width, 90%);
+      		max-width: 90%;
+      	}
+      }
+
+      @media(min-width:768px) {
+      	.elementor-5800 .elementor-element.elementor-element-6db2547 {
+      		--width: 165px;
+      	}
+
+      	.elementor-5800 .elementor-element.elementor-element-33a0097 {
+      		--width: 165px;
+      	}
+
+      	.elementor-5800 .elementor-element.elementor-element-874d2c5 {
+      		--width: 997px;
+      	}
+      }
+
+      @media(max-width:767px) {
+      	.elementor-5800 .elementor-element.elementor-element-6db2547 {
+      		--width: 130px;
+      		top: 58%;
+      	}
+
+      	.elementor-5800 .elementor-element.elementor-element-33a0097 {
+      		--width: 130px;
+      		top: -13%;
+      	}
+
+      	.elementor-5800 .elementor-element.elementor-element-bd22a74 .lqd-tw-el {
+      		font-size: 9.9vw;
+      	}
+
+      	.elementor-5800 .elementor-element.elementor-element-da50f7c {
+      		width: 100%;
+      		max-width: 100%;
+      	}
+
+      	.elementor-5800 .elementor-element.elementor-element-da50f7c .lqd-text-el {
+      		font-size: 9px;
+      	}
+
+      	.elementor-5800 .elementor-element.elementor-element-edd3c56 {
+      		--margin-top: -100;
+      		--margin-bottom: 0;
+      		--margin-left: 0;
+      		--margin-right: 0;
+      	}
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="google-fonts-1-css"
+      href="https://fonts.googleapis.com/css?family=Syne%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CBe+Vietnam+Pro%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COrbitron%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.7.1"
+      media="all"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <script
+      src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      id="jquery-core-js"
+    ></script>
+    <script
+      src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+      id="jquery-migrate-js"
+    ></script>
+    <script
+      src="/wp-content/plugins/copy-the-code/classes/gutenberg/blocks/copy-button/js/frontend.js?ver=1.0.0"
+      id="ctc-copy-button-script-2-js"
+    ></script>
+    <script
+      src="/wp-content/plugins/copy-the-code/classes/gutenberg/blocks/copy-icon/js/frontend.js?ver=1.0.0"
+      id="ctc-copy-icon-script-2-js"
+    ></script>
+    <link rel="https://api.w.org/" href="/wp-json/" />
+    <link
+      rel="alternate"
+      title="JSON"
+      type="application/json"
+      href="/wp-json/wp/v2/pages/5800"
+    />
+    <link
+      rel="EditURI"
+      type="application/rsd+xml"
+      title="RSD"
+      href="/xmlrpc.php?rsd"
+    />
+    <meta name="generator" content="WordPress 6.7.1" />
+    <link rel="canonical" href="/" />
+    <link rel="shortlink" href="/" />
+    <link
+      rel="alternate"
+      title="oEmbed (JSON)"
+      type="application/json+oembed"
+      href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fstarshipeth.fun%2F"
+    />
+    <link
+      rel="alternate"
+      title="oEmbed (XML)"
+      type="text/xml+oembed"
+      href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fstarshipeth.fun%2F&#038;format=xml"
+    />
+
+    <link rel="icon" type="image/png" href="/wp-content/logo.png" />
+
+    <script>
+      window.liquid = {
+        app: null,
+        behaviors: [],
+        loadedBehaviors: [],
+        breakpoints: {
+          tablet: {
+            label: "Tablet Portrait",
+            value: 1024,
+            default_value: 1024,
+            direction: "max",
+            is_enabled: true,
+          },
+          mobile: {
+            label: "Mobile Portrait",
+            value: 767,
+            default_value: 767,
+            direction: "max",
+            is_enabled: true,
+          },
+        },
+      };
+    </script>
+    <meta
+      name="generator"
+      content="Elementor 3.26.3; features: e_font_icon_svg, additional_custom_breakpoints, e_element_cache; settings: css_print_method-internal, google_font-enabled, font_display-swap"
+    />
+    <style>
+      .e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload),
+      .e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload)
+        * {
+        background-image: none !important;
+      }
+
+      @media screen and (max-height: 1024px) {
+        .e-con.e-parent:nth-of-type(n
+            + 3):not(.e-lazyloaded):not(.e-no-lazyload),
+        .e-con.e-parent:nth-of-type(n
+            + 3):not(.e-lazyloaded):not(.e-no-lazyload)
+          * {
+          background-image: none !important;
+        }
+      }
+
+      @media screen and (max-height: 640px) {
+        .e-con.e-parent:nth-of-type(n
+            + 2):not(.e-lazyloaded):not(.e-no-lazyload),
+        .e-con.e-parent:nth-of-type(n
+            + 2):not(.e-lazyloaded):not(.e-no-lazyload)
+          * {
+          background-image: none !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body
+    class="home page-template-default page page-id-5800 wp-embed-responsive sidebar-widgets-outline elementor-default elementor-kit-5 elementor-page elementor-page-5800"
+    dir="ltr"
+    itemscope="itemscope"
+    itemtype="http://schema.org/WebPage"
+    data-mobile-nav-breakpoint="1200"
+    data-localscroll-offset="500"
+    data-mobile-nav-style="modern"
+    data-mobile-nav-scheme="dark"
+    data-mobile-nav-trigger-alignment="right"
+    data-mobile-header-scheme="gray"
+    data-mobile-logo-alignment="default"
+  >
+    <script>
+      let initPageColorScheme = "";
+      if (initPageColorScheme === "system") {
+        initPageColorScheme = window.matchMedia("(prefers-color-scheme: dark)")
+          .matches
+          ? "dark"
+          : "light";
+        window
+          .matchMedia("(prefers-color-scheme: dark)")
+          .addEventListener("change", (event) => {
+            const color = event.matches ? "dark" : "light";
+            document.body.setAttribute("data-lqd-page-color-scheme", color);
+            localStorage.setItem("lqd-page-color-scheme", color);
+          });
+      }
+      const liquidPageColorScheme = localStorage.getItem(
+        "lqd-page-color-scheme"
+      );
+      const liquidTouchMM = window.matchMedia("(pointer: coarse)");
+      if (initPageColorScheme === "" || initPageColorScheme === "none") {
+        document.body.setAttribute("data-lqd-page-color-scheme", "");
+      } else {
+        if (liquidPageColorScheme) {
+          document.body.setAttribute(
+            "data-lqd-page-color-scheme",
+            liquidPageColorScheme
+          );
+        } else if (initPageColorScheme && initPageColorScheme !== "") {
+          document.body.setAttribute(
+            "data-lqd-page-color-scheme",
+            initPageColorScheme
+          );
+        }
+      }
+      function liquidCheckTouch() {
+        if (liquidTouchMM.matches) {
+          document.body.classList.remove("lqd-no-touch");
+          document.body.classList.add("lqd-is-touch");
+        } else {
+          document.body.classList.remove("lqd-is-touch");
+          document.body.classList.add("lqd-no-touch");
+        }
+      }
+      liquidTouchMM.addEventListener("change", liquidCheckTouch);
+      liquidCheckTouch();
+    </script>
+
+    <div>
+      <div class="screen-reader-text">Skip links</div>
+      <ul class="liquid-skip-link screen-reader-text">
+        <li>
+          <a href="#primary-nav" class="screen-reader-shortcut">
+            Skip to primary navigation</a
+          >
+        </li>
+        <li>
+          <a href="#lqd-site-content" class="screen-reader-shortcut">
+            Skip to content</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div id="lqd-wrap" class="relative overflow-hidden">
+      <header
+        class="lqd-site-header z-99 lqd-site-header-overlay absolute start-0 end-0"
+        id="lqd-page-header-wrap"
+        itemscope="itemscope"
+        itemtype="https://schema.org/WPHeader"
+      >
+        <div id="lqd-page-header" data-lqd-view="liquidPageHeader">
+          <style id="elementor-post-331">
+            .elementor-331 .elementor-element.elementor-element-5a01bf2 {
+            	--display: flex;
+            	--flex-direction: row;
+            	--container-widget-width: calc((1 - var(--container-widget-flex-grow)) * 100%);
+            	--container-widget-height: 100%;
+            	--container-widget-flex-grow: 1;
+            	--container-widget-align-self: stretch;
+            	--flex-wrap-mobile: wrap;
+            	--justify-content: space-between;
+            	--align-items: center;
+            	--padding-top: 30px;
+            	--padding-bottom: 30px;
+            	--padding-left: 10px;
+            	--padding-right: 10px;
+            }
+
+            .elementor-331 .elementor-element.elementor-element-249c186 .lqd-menu-ul {
+            	flex-direction: row;
+            	flex-wrap: nowrap;
+            }
+
+            .elementor-331 .elementor-element.elementor-element-249c186 {
+            	--lqd-trigger-bars-count: 2;
+            	--lqd-menu-ul-gap: 54px;
+            	--lqd-menu-ul-pt: 16px;
+            	--lqd-menu-ul-pe: 40px;
+            	--lqd-menu-ul-pb: 16px;
+            	--lqd-menu-ul-ps: 40px;
+            	--lqd-menu-ul-bg: linear-gradient(0deg, #FFFFFF05 0%, #FFFFFF0F 100%);
+            	--lqd-menu-ul-bs: 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
+            	--lqd-menu-link-pt: 0px;
+            	--lqd-menu-link-pe: 0px;
+            	--lqd-menu-link-pb: 0px;
+            	--lqd-menu-link-ps: 0px;
+            	--lqd-menu-link-color: #FFFFFF8C;
+            }
+
+            .elementor-331 .elementor-element.elementor-element-249c186 .lqd-menu-ul,
+            .elementor-331 .elementor-element.elementor-element-249c186>.elementor-widget-container {
+            	justify-content: start;
+            }
+
+            .elementor-331 .elementor-element.elementor-element-249c186 .lqd-menu-li-top,
+            .elementor-331 .elementor-element.elementor-element-249c186 .lqd-menu-link-top {
+            	justify-content: start;
+            	text-align: start;
+            }
+
+            .elementor-331 .elementor-element.elementor-element-249c186 .lqd-menu-dropdown {
+            	flex-direction: column;
+            }
+
+            .elementor-331 .elementor-element.elementor-element-249c186 .lqd-menu-ul-top {
+            	-webkit-backdrop-filter: brightness(120%) contrast(100%) saturate(100%) blur(15px) hue-rotate(0deg);
+            	backdrop-filter: brightness(120%) contrast(100%) saturate(100%) blur(15px) hue-rotate(0deg);
+            	border-radius: 999px 999px 999px 999px;
+            }
+
+            .elementor-331 .elementor-element.elementor-element-249c186 .lqd-menu-li-top {
+            	font-size: 14px;
+            	line-height: 1em;
+            }
+
+            .elementor-331 .elementor-element.elementor-element-249c186 .lqd-menu-li-top:hover {
+            	--lqd-menu-link-color: #FFFFFF;
+            }
+
+            .elementor-331 .elementor-element.elementor-element-249c186 .lqd-menu-li-top :is(.lqd-menu-link-top.lqd-is-active, .lqd-menu-li-top.current-menu-item > a) {
+            	--lqd-menu-link-color: #FFFFFF;
+            }
+
+            .elementor-331 .elementor-element.elementor-element-249c186 .lqd-menu-li-top>.lqd-menu-dropdown {
+            	inset-inline-end: auto;
+            	inset-inline-start: 0%;
+            	bottom: auto;
+            	top: 100%;
+            }
+
+            .elementor-331 .elementor-element.elementor-element-249c186 .lqd-menu-dropdown-trigger:after {
+            	bottom: calc(100% * -1);
+            }
+
+            .elementor-331 .elementor-element.elementor-element-249c186 .lqd-trigger {
+            	font-size: 16px;
+            	color: #FFFFFF;
+            }
+
+            .elementor-331 .elementor-element.elementor-element-249c186 .lqd-trigger:hover {
+            	color: #FFFFFF;
+            }
+
+            .elementor-331 .elementor-element.elementor-element-249c186 .lqd-trigger.lqd-is-active {
+            	color: #FFFFFF;
+            }
+
+            .elementor-331 .elementor-element.elementor-element-249c186 .lqd-trigger:hover .lqd-trigger-bar {
+            	background: #FFFFFF;
+            }
+
+            .elementor-331 .elementor-element.elementor-element-249c186 .lqd-trigger.lqd-is-active .lqd-trigger-bar {
+            	background: #FFFFFF;
+            }
+
+            .elementor-331 .elementor-element.elementor-element-249c186 .lqd-trigger-bars-shape {
+            	width: 55px;
+            	height: 55px;
+            }
+
+            .elementor-331 .elementor-element.elementor-element-71db875 .lqd-btn {
+            	font-size: 14px;
+            	line-height: 24px;
+            	--lqd-btn-pt: 0px;
+            	--lqd-btn-pe: 0px;
+            	--lqd-btn-pb: 0px;
+            	--lqd-btn-ps: 0px;
+            	color: #FFFFFF;
+            	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+            }
+
+            .elementor-331 .elementor-element.elementor-element-71db875 .lqd-btn:hover {
+            	color: var(--e-global-color-secondary);
+            }
+
+            	{
+            		{
+            		SELECTOR
+            	}
+            }
+
+            .elementor-repeater-item-d73ef4c-e44a442 {
+            	background: #262626;
+            }
+
+            	{
+            		{
+            		SELECTOR
+            	}
+            }
+
+            .elementor-repeater-item-b766fe4-e44a442 {
+            	background: #FFFFFF;
+            }
+
+            body:not(.rtl) .elementor-331 .elementor-element.elementor-element-e44a442 {
+            	left: 20px;
+            }
+
+            body.rtl .elementor-331 .elementor-element.elementor-element-e44a442 {
+            	right: 20px;
+            }
+
+            .elementor-331 .elementor-element.elementor-element-e44a442 {
+            	bottom: 25px;
+            }
+
+            .elementor-331 .elementor-element.elementor-element-e44a442 .lqd-btn:hover {
+            	transform: scale(1.1);
+            	box-shadow: 0px 5px 55px 0px rgba(10, 201.00000000000003, 147.99999999999994, 0.5294117647058824);
+            }
+
+            .elementor-331 .elementor-element.elementor-element-e44a442 .lqd-btn:hover .lqd-btn-icon {
+            	transform: scale(1.1);
+            }
+
+            .elementor-331 .elementor-element.elementor-element-e44a442 .lqd-btn {
+            	--lqd-btn-w: 48px;
+            	--lqd-btn-h: 48px;
+            	--lqd-btn-justify-content: center;
+            	--lqd-btn-pt: 0px;
+            	--lqd-btn-pe: 0px;
+            	--lqd-btn-pb: 0px;
+            	--lqd-btn-ps: 0px;
+            	--lqd-btn-brrt: 50px;
+            	--lqd-btn-brre: 50px;
+            	--lqd-btn-brrb: 50px;
+            	--lqd-btn-brrs: 50px;
+            	--lqd-btn-i-mt: 0px;
+            	--lqd-btn-i-me: 0px;
+            	--lqd-btn-i-mb: 0px;
+            	--lqd-btn-i-ms: 0px;
+            }
+
+            .elementor-331 .elementor-element.elementor-element-e44a442 .lqd-btn-icon {
+            	font-size: 24px;
+            }
+
+            @media(max-width:767px) {
+            	.elementor-331 .elementor-element.elementor-element-5a01bf2 {
+            		--padding-top: 15px;
+            		--padding-bottom: 15px;
+            		--padding-left: 20px;
+            		--padding-right: 20px;
+            	}
+
+            	.elementor-331 .elementor-element.elementor-element-249c186 .lqd-menu-ul {
+            		flex-direction: column;
+            		max-height: 72vh;
+            		overflow-y: auto;
+            		justify-content: start;
+            		width: 100%;
+            	}
+
+            	.elementor-331 .elementor-element.elementor-element-249c186 .lqd-menu-wrap {
+            		display: none;
+            		position: absolute;
+            		top: 100%;
+            		left: 0;
+            		right: 0;
+            		z-index: 10;
+            		width: 100vw;
+            		inset-inline-end: -10px;
+            		inset-inline-start: auto !important;
+            	}
+
+            	.elementor-331 .elementor-element.elementor-element-249c186 .lqd-trigger {
+            		display: flex;
+            	}
+
+            	.elementor-331 .elementor-element.elementor-element-249c186 .lqd-menu-dropdown-trigger:after {
+            		content: none;
+            	}
+
+            	.elementor-331 .elementor-element.elementor-element-249c186 .lqd-dropdown-trigger {
+            		display: inline-flex;
+            	}
+
+            	.elementor-331 .elementor-element.elementor-element-249c186 .lqd-dropdown-arrow {
+            		display: none;
+            	}
+
+            	.elementor-331 .elementor-element.elementor-element-249c186 .lqd-menu-dropdown {
+            		display: none;
+            		min-width: 0;
+            		position: relative;
+            		border-radius: 0;
+            		top: auto !important;
+            		bottom: auto !important;
+            		left: auto !important;
+            		right: auto !important;
+            		opacity: 1;
+            		visibility: visible;
+            		transform: none;
+            		text-align: inherit;
+            		pointer-events: auto !important;
+            	}
+
+            	.elementor-331 .elementor-element.elementor-element-249c186 .lqd-menu-dropdown:before {
+            		content: none;
+            	}
+
+            	.elementor-331 .elementor-element.elementor-element-249c186 .lqd-menu-dropdown .lqd-menu-dropdown {
+            		top: auto !important;
+            		bottom: auto !important;
+            		left: auto !important;
+            		right: auto !important;
+            		transform: none;
+            	}
+
+            	.elementor-331 .elementor-element.elementor-element-249c186 .lqd-menu-li-top {
+            		width: 100%;
+            	}
+
+            	.elementor-331 .elementor-element.elementor-element-249c186 {
+            		--lqd-menu-ul-gap: 35px;
+            		--lqd-menu-ul-pt: 30px;
+            		--lqd-menu-ul-pe: 15px;
+            		--lqd-menu-ul-pb: 30px;
+            		--lqd-menu-ul-ps: 15px;
+            	}
+
+            	.elementor-331 .elementor-element.elementor-element-249c186 .lqd-menu-ul-top {
+            		border-radius: 10px 10px 10px 10px;
+            	}
+            }
+
+            .elementor-331 .elementor-element.elementor-element-7ddc712 img {
+            	max-width: 200px
+            }
+          </style>
+          <div
+            data-elementor-type="wp-post"
+            data-elementor-id="331"
+            class="elementor elementor-331"
+          >
+            <div
+              class="elementor-element elementor-element-5a01bf2 e-flex e-con-boxed e-con e-parent"
+              data-id="5a01bf2"
+              data-element_type="container"
+            >
+              <div class="e-con-inner">
+                <div
+                  class="elementor-element elementor-element-7ddc712 elementor-widget elementor-widget-lqd_site_logo"
+                  data-id="7ddc712"
+                  data-element_type="widget"
+                  data-widget_type="lqd_site_logo.default"
+                >
+                  <div class="elementor-widget-container">
+                    <a class="lqd-logo flex p-0 relative" href="/" rel="home">
+                      <img
+                        class="lqd-logo-default"
+                        src="/wp-content/caption.png"
+                        alt="logo"
+                    /></a>
+                  </div>
+                </div>
+                <nav
+                  class="elementor-element elementor-element-249c186 elementor-widget elementor-widget-lqd-menu lqd-widget-container-flex lqd-widget-container-items-center"
+                  data-id="249c186"
+                  data-element_type="widget"
+                  data-widget_type="lqd-menu.default"
+                  data-lqd-menu-dropdown-position-applied="false"
+                >
+                  <div class="elementor-widget-container">
+                    <button
+                      class="lqd-trigger lqd-togglable-trigger items-center bg-transparent border-none p-0 transition-all hidden"
+                    >
+                      <span
+                        class="lqd-trigger-bars-shape flex items-center justify-center relative pointer-events-none transition-all"
+                      >
+                        <span class="flex flex-col relative">
+                          <span
+                            class="lqd-trigger-bar lqd-trigger-bar-close lqd-trigger-bar-close-1 absolute top-1/2 start-1/2 bg-current transition-transform"
+                          ></span>
+                          <span
+                            class="lqd-trigger-bar lqd-trigger-bar-close lqd-trigger-bar-close-2 absolute top-1/2 start-1/2 bg-current transition-transform"
+                          ></span>
+                          <span
+                            class="lqd-trigger-bar lqd-trigger-bar-1 lqd-trigger-bar-open bg-current transition-transform origin-right"
+                          ></span>
+                          <span
+                            class="lqd-trigger-bar lqd-trigger-bar-2 lqd-trigger-bar-open bg-current transition-transform origin-right"
+                          ></span>
+                        </span>
+                      </span>
+
+                      <span
+                        class="lqd-trigger-text inline-flex overflow-hidden whitespace-nowrap pointer-events-none transition-all"
+                        >Menu</span
+                      >
+                    </button>
+
+                    <div class="lqd-menu-wrap [&amp;.lqd-is-active:flex] grow">
+                      <ul
+                        id="menu-primary"
+                        class="lqd-menu-ul lqd-menu-ul-top flex items-center grow list-none transition-colors"
+                      >
+                        <li
+                          id="menu-item-5894"
+                          class="menu-item menu-item-type-custom menu-item-object-custom lqd-menu-li relative lqd-menu-li-top menu-item-5894"
+                        >
+                          <a
+                            target="_blank"
+                            href="https://dexscreener.com/solana/4i9269mwWhkEZXvY6fkQEPun5Vf8QtwiuEHAwgvFpump"
+                            class="lqd-menu-link transition-all lqd-menu-link-top flex items-center"
+                            >Chart</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-5895"
+                          class="menu-item menu-item-type-custom menu-item-object-custom lqd-menu-li relative lqd-menu-li-top menu-item-5895"
+                        >
+                          <a
+                            target="_blank"
+                            href="https://x.com/i/communities/2034626507839348967"
+                            class="lqd-menu-link transition-all lqd-menu-link-top flex items-center"
+                            >Twitter</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-5898"
+                          class="menu-item menu-item-type-custom menu-item-object-custom lqd-menu-li relative lqd-menu-li-top menu-item-5898"
+                        >
+                          <a
+                            target="_blank"
+                            href="https://t.me/ChibiElonSOL"
+                            class="lqd-menu-link transition-all lqd-menu-link-top flex items-center"
+                            >Telegram</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+                <script>
+                  window.liquid.behaviors.push({
+                    dataId: "249c186",
+                    behaviors: [
+                      {
+                        behaviorName: "liquidToggle",
+                        options: {
+                          disableOnTouch: true,
+                          changePropPrefix: "lqdMenuSubmenu-249c186",
+                          ui: {
+                            togglableTriggers: ".menu-item-has-children",
+                            togglableElements: ".lqd-menu-dropdown",
+                          },
+                          triggerElements: [
+                            "pointerenter @togglableTriggers",
+                            "pointerleave @togglableTriggers",
+                          ],
+                        },
+                      },
+                      { behaviorName: "liquidDropdown" },
+                      {
+                        behaviorName: "liquidToggle",
+                        options: {
+                          changePropPrefix: "lqdMenuMobileToggle-249c186",
+                          ui: {
+                            togglableTriggers: ".lqd-dropdown-trigger",
+                            togglableElements: ".lqd-menu-dropdown",
+                          },
+                          triggerElements: ["click @togglableTriggers"],
+                        },
+                      },
+                      {
+                        behaviorName: "liquidEffectsSlideToggle",
+                        options: {
+                          changePropPrefix: "lqdMenuMobileToggle-249c186",
+                          keepHiddenClassname: false,
+                        },
+                      },
+                      {
+                        behaviorName: "liquidGetElementComputedStyles",
+                        options: { getRect: true, includeSelf: true },
+                      },
+                      {
+                        behaviorName: "liquidToggle",
+                        options: {
+                          changePropPrefix: "lqdMenuToggle-249c186",
+                          toggleOffOnEscPress: true,
+                          toggleOffOnOutsideClick: true,
+                          ui: {
+                            togglableTriggers: ".lqd-trigger",
+                            togglableElements: ".lqd-menu-wrap",
+                          },
+                          triggerElements: ["click @togglableTriggers"],
+                        },
+                      },
+                      {
+                        behaviorName: "liquidEffectsSlideToggle",
+                        options: {
+                          changePropPrefix: "lqdMenuToggle-249c186",
+                          keepHiddenClassname: false,
+                        },
+                      },
+                      {
+                        behaviorName: "liquidLocalScroll",
+                        options: {
+                          offset: 50,
+                          ui: { links: ".lqd-menu-link-top" },
+                        },
+                      },
+                    ],
+                  });
+                </script>
+                <div
+                  class="elementor-element elementor-element-71db875 elementor-hidden-mobile elementor-hidden-tablet elementor-widget elementor-widget-lqd-button"
+                  data-id="71db875"
+                  data-element_type="widget"
+                  data-widget_type="lqd-button.default"
+                >
+                  <div class="elementor-widget-container">
+                    <a
+                      href="https://pump.fun/coin/4i9269mwWhkEZXvY6fkQEPun5Vf8QtwiuEHAwgvFpump"
+                      role="button"
+                      class="lqd-btn inline-flex items-center relative lqd-group lqd-group-btn lqd-btn-has-bg lqd-btn-has-hover-bg"
+                      data-lqd-local-scroll-el=""
+                      ><span
+                        class="lqd-bg-el rounded-inherit transition-opacity lqd-group-btn-hover:opacity-0 hidden-if-empty"
+                      ></span
+                      ><span
+                        class="lqd-hover-bg-el lqd-el-visible-on-hover rounded-inherit transition-opacity opacity-0 lqd-group-btn-hover:opacity-100 hidden-if-empty"
+                      ></span>
+                      <span class="lqd-btn-txt relative z-1"
+                        >Buy $CHIBIELON</span
+                      ></a
+                    >
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-e44a442 elementor-fixed elementor-widget elementor-widget-lqd-button"
+                  data-id="e44a442"
+                  data-element_type="widget"
+                  data-settings='{"_position":"fixed"}'
+                  data-widget_type="lqd-button.default"
+                >
+                  <div class="elementor-widget-container">
+                    <a
+                      href="#"
+                      rel="nofollow"
+                      role="button"
+                      class="lqd-btn inline-flex items-center relative lqd-group lqd-group-btn lqd-btn-has-bg lqd-btn-has-hover-bg"
+                      data-lqd-local-scroll-el=""
+                      ><span
+                        class="lqd-bg-el rounded-inherit transition-opacity lqd-group-btn-hover:opacity-0 hidden-if-empty"
+                        ><span
+                          class="lqd-bg-layer lqd-color-wrap lqd-bg-color-wrap block w-full h-full rounded-inherit overflow-hidden elementor-repeater-item-d73ef4c-e44a442 absolute top-0 start-0 z-0"
+                        ></span></span
+                      ><span
+                        class="lqd-hover-bg-el lqd-el-visible-on-hover rounded-inherit transition-opacity opacity-0 lqd-group-btn-hover:opacity-100 hidden-if-empty"
+                        ><span
+                          class="lqd-bg-layer lqd-color-wrap lqd-bg-color-wrap block w-full h-full rounded-inherit overflow-hidden elementor-repeater-item-b766fe4-e44a442 absolute top-0 start-0 z-0"
+                        ></span
+                      ></span>
+                      <span
+                        class="lqd-btn-icon inline-flex items-center justify-center relative z-1"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="19.824"
+                          height="22.629"
+                          viewBox="0 0 19.824 22.629"
+                        >
+                          <path
+                            d="M17.217,9.263c-.663-.368-2.564-.14-4.848.566-4,2.731-7.369,6.756-7.6,13.218-.043.155-.437-.021-.515-.069a9.2,9.2,0,0,1-.606-7.388c.168-.28-.381-.624-.48-.525A11.283,11.283,0,0,0,1.6,17.091a9.84,9.84,0,0,0,17.2,9.571c3.058-5.481.219-16.4-1.574-17.4Z"
+                            transform="translate(-0.32 -9.089)"
+                            fill="#0ac994"
+                          ></path></svg></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="z-2" id="lqd-page-content-wrap">
+        <div id="lqd-page-content" data-lqd-view="liquidPageContent">
+          <div id="content" class="lqd-contents">
+            <div
+              data-elementor-type="wp-page"
+              data-elementor-id="5800"
+              class="elementor elementor-5800"
+            >
+              <div
+                class="elementor-element elementor-element-e18bab3 e-con-full e-flex e-con e-parent"
+                data-id="e18bab3"
+                data-element_type="container"
+                id="banner"
+              >
+                <div
+                  class="elementor-element elementor-element-4ca3fff elementor-absolute elementor-widget elementor-widget-lqd-lottie"
+                  data-id="4ca3fff"
+                  data-element_type="widget"
+                  data-settings='{"_position":"absolute"}'
+                  data-widget_type="lqd-lottie.default"
+                >
+                  <div class="elementor-widget-container">
+                    <div id="lqd-lottie-4ca3fff" class="lqd-lottie"></div>
+                  </div>
+                </div>
+                <script>
+                  window.liquid.behaviors.push({
+                    dataId: "4ca3fff",
+                    behaviors: [
+                      {
+                        behaviorName: "liquidLottie",
+                        options: {
+                          animType: "svg",
+                          name: "lqd-lottie-4ca3fff",
+                          autoplay: true,
+                          loop: true,
+                          path: "https:\/\/staging.liquid-themes.com\/ai-demo4\/wp-content\/uploads\/2023\/05\/119227-falling-meteor.json",
+                          className: "lqd-lottie",
+                          direction: "1",
+                          speed: 0.4,
+                        },
+                      },
+                    ],
+                  });
+                </script>
+                <div
+                  class="elementor-element elementor-element-1b1b436 e-con-full e-flex e-con e-child"
+                  data-id="1b1b436"
+                  data-element_type="container"
+                  data-settings='{"position":"absolute"}'
+                ></div>
+                <div
+                  class="elementor-element elementor-element-6db2547 e-con-full e-flex e-con e-child"
+                  data-id="6db2547"
+                  data-element_type="container"
+                  data-settings='{"position":"absolute"}'
+                >
+                  <div
+                    class="elementor-element elementor-element-e5a7712 elementor-widget elementor-widget-lqd-image"
+                    data-id="e5a7712"
+                    data-element_type="widget"
+                    data-widget_type="lqd-image.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <figure
+                        class="inline-block relative align-middle overflow-hidden lqd-transform-perspective transition-colors"
+                        data-lqd-look-at-mouse
+                        data-lqd-hover3d-el
+                      >
+                        <img
+                          decoding="async"
+                          width="200"
+                          height="200"
+                          src="/rotating.jpg"
+                          class="attachment-full size-full wp-image-5861"
+                          alt=""
+                        />
+                      </figure>
+                    </div>
+                  </div>
+                  <style>
+                    .elementor-element-e5a7712 {
+                      transform: translate3d(0px, 0px, 0px) scale(0.5, 0.5)
+                        rotateX(0deg) rotateY(0deg) rotateZ(90deg)
+                        skew(0deg, 0deg);
+                      opacity: 0;
+                    }
+                  </style>
+                  <script>
+                    window.liquid.behaviors.push({
+                      dataId: "e5a7712",
+                      behaviors: [
+                        { behaviorName: "liquidLookAtMouse" },
+                        {
+                          behaviorName: "liquidGetElementComputedStyles",
+                          options: {
+                            includeSelf: true,
+                            getRect: true,
+                            addGhosts: true,
+                          },
+                        },
+                        {
+                          behaviorName: "liquidAnimations",
+                          options: {
+                            domain: "inview",
+                            trigger: "ghost",
+                            duration: 0.65,
+                            ease: "expo.out",
+                            stagger: { each: 0.065, from: "start" },
+                            delay: 0.7,
+                            start: "top+=30px bottom",
+                            startElementOffset: 0,
+                            startViewportOffset: 0,
+                            animations: [
+                              {
+                                elements: "self",
+                                breakpointsKeyframes: {
+                                  all: {
+                                    keyframes: [
+                                      {
+                                        scaleX: 1,
+                                        scaleY: 1,
+                                        skewX: 0,
+                                        skewY: 0,
+                                        x: "0px",
+                                        y: "0px",
+                                        z: "0px",
+                                        rotateX: 0,
+                                        rotateY: 0,
+                                        rotateZ: 0,
+                                        opacity: 1,
+                                      },
+                                    ],
+                                  },
+                                },
+                              },
+                            ],
+                          },
+                        },
+                      ],
+                    });
+                  </script>
+                </div>
+                <style>
+                  .elementor-element-6db2547 {
+                    transform: translate3d(0px, 150px, 0px) scale(1, 1)
+                      rotateX(0deg) rotateY(0deg) rotateZ(90deg)
+                      skew(0deg, 0deg);
+                  }
+                </style>
+                <script>
+                  window.liquid.behaviors.push({
+                    dataId: "6db2547",
+                    behaviors: [
+                      {
+                        behaviorName: "liquidGetElementComputedStyles",
+                        options: {
+                          includeSelf: true,
+                          getRect: true,
+                          addGhosts: true,
+                        },
+                      },
+                      {
+                        behaviorName: "liquidAnimations",
+                        options: {
+                          domain: "parallax",
+                          trigger: "topParentContainer",
+                          ease: "linear",
+                          scrub: 1,
+                          start: "top top",
+                          end: "100% 0%",
+                          startElementOffset: 0,
+                          startViewportOffset: 0,
+                          endElementOffset: 0,
+                          endViewportOffset: 0,
+                          animations: [
+                            {
+                              elements: "self",
+                              breakpointsKeyframes: {
+                                all: {
+                                  keyframes: [
+                                    {
+                                      scaleX: 1,
+                                      scaleY: 1,
+                                      skewX: 0,
+                                      skewY: 0,
+                                      x: "0px",
+                                      y: "-200px",
+                                      z: "0px",
+                                      rotateX: 0,
+                                      rotateY: 0,
+                                      rotateZ: 0,
+                                      opacity: 1,
+                                    },
+                                  ],
+                                },
+                              },
+                            },
+                          ],
+                        },
+                      },
+                    ],
+                  });
+                </script>
+                <div
+                  class="elementor-element elementor-element-33a0097 e-con-full e-flex e-con e-child"
+                  data-id="33a0097"
+                  data-element_type="container"
+                  data-settings='{"position":"absolute"}'
+                >
+                  <div
+                    class="elementor-element elementor-element-9f15709 elementor-widget elementor-widget-lqd-image"
+                    data-id="9f15709"
+                    data-element_type="widget"
+                    data-widget_type="lqd-image.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <figure
+                        class="inline-block relative align-middle overflow-hidden lqd-transform-perspective transition-colors"
+                        data-lqd-look-at-mouse
+                        data-lqd-hover3d-el
+                      >
+                        <img
+                          decoding="async"
+                          width="200"
+                          height="200"
+                          src="/rotating.jpg"
+                          class="attachment-full size-full wp-image-5861"
+                          alt=""
+                        />
+                      </figure>
+                    </div>
+                  </div>
+                  <style>
+                    .elementor-element-9f15709 {
+                      transform: translate3d(0px, 0px, 0px) scale(0.5, 0.5)
+                        rotateX(0deg) rotateY(0deg) rotateZ(-90deg)
+                        skew(0deg, 0deg);
+                      opacity: 0;
+                    }
+                  </style>
+                  <script>
+                    window.liquid.behaviors.push({
+                      dataId: "9f15709",
+                      behaviors: [
+                        { behaviorName: "liquidLookAtMouse" },
+                        {
+                          behaviorName: "liquidGetElementComputedStyles",
+                          options: {
+                            includeSelf: true,
+                            getRect: true,
+                            addGhosts: true,
+                          },
+                        },
+                        {
+                          behaviorName: "liquidAnimations",
+                          options: {
+                            domain: "inview",
+                            trigger: "ghost",
+                            duration: 0.65,
+                            ease: "expo.out",
+                            stagger: { each: 0.065, from: "start" },
+                            delay: 0.8,
+                            start: "top+=30px bottom",
+                            startElementOffset: 0,
+                            startViewportOffset: 0,
+                            animations: [
+                              {
+                                elements: "self",
+                                breakpointsKeyframes: {
+                                  all: {
+                                    keyframes: [
+                                      {
+                                        scaleX: 1,
+                                        scaleY: 1,
+                                        skewX: 0,
+                                        skewY: 0,
+                                        x: "0px",
+                                        y: "0px",
+                                        z: "0px",
+                                        rotateX: 0,
+                                        rotateY: 0,
+                                        rotateZ: 0,
+                                        opacity: 1,
+                                      },
+                                    ],
+                                  },
+                                },
+                              },
+                            ],
+                          },
+                        },
+                      ],
+                    });
+                  </script>
+                </div>
+                <style>
+                  .elementor-element-33a0097 {
+                    transform: translate3d(0px, 200px, 0px) scale(1, 1)
+                      rotateX(0deg) rotateY(0deg) rotateZ(-70deg)
+                      skew(0deg, 0deg);
+                  }
+                </style>
+                <script>
+                  window.liquid.behaviors.push({
+                    dataId: "33a0097",
+                    behaviors: [
+                      {
+                        behaviorName: "liquidGetElementComputedStyles",
+                        options: {
+                          includeSelf: true,
+                          getRect: true,
+                          addGhosts: true,
+                        },
+                      },
+                      {
+                        behaviorName: "liquidAnimations",
+                        options: {
+                          domain: "parallax",
+                          trigger: "topParentContainer",
+                          ease: "linear",
+                          scrub: 1,
+                          start: "top top",
+                          end: "100% 0%",
+                          startElementOffset: 0,
+                          startViewportOffset: 0,
+                          endElementOffset: 0,
+                          endViewportOffset: 0,
+                          animations: [
+                            {
+                              elements: "self",
+                              breakpointsKeyframes: {
+                                all: {
+                                  keyframes: [
+                                    {
+                                      scaleX: 1,
+                                      scaleY: 1,
+                                      skewX: 0,
+                                      skewY: 0,
+                                      x: "0px",
+                                      y: "-300px",
+                                      z: "0px",
+                                      rotateX: 0,
+                                      rotateY: 0,
+                                      rotateZ: 0,
+                                      opacity: 1,
+                                    },
+                                  ],
+                                },
+                              },
+                            },
+                          ],
+                        },
+                      },
+                    ],
+                  });
+                </script>
+                <div
+                  class="elementor-element elementor-element-874d2c5 e-con-full e-flex e-con e-child"
+                  data-id="874d2c5"
+                  data-element_type="container"
+                >
+                  <div
+                    class="elementor-element elementor-element-bd22a74 elementor-widget elementor-widget-lqd-typewriter"
+                    data-id="bd22a74"
+                    data-element_type="widget"
+                    data-widget_type="lqd-typewriter.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <h1 class="lqd-tw-el mt-0 mb-0 relative">
+                        <span class="lqd-tw-preserver invisible" tabindex="-1"
+                          ><span
+                            class="lqd-tw-item transition-all elementor-repeater-item-eb0823c"
+                          >
+                            $CHIBIELON Taking your bags to the moon and
+                            beyond!</span
+                          ></span
+                        >
+                        <span
+                          class="lqd-tw-writer block w-full h-full absolute top-0 start-0"
+                        ></span>
+                      </h1>
+                    </div>
+                  </div>
+                  <style>
+                    .elementor-element-bd22a74 {
+                      transform: translate3d(0px, 60px, 0px) scale(1, 1)
+                        rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+                        skew(0deg, 0deg);
+                      opacity: 0;
+                    }
+                  </style>
+                  <script>
+                    window.liquid.behaviors.push({
+                      dataId: "bd22a74",
+                      behaviors: [
+                        {
+                          behaviorName: "liquidTypewriter",
+                          options: {
+                            delay: 100,
+                            actions: [
+                              [
+                                "typeString",
+                                '<span class="lqd-tw-item transition-all elementor-repeater-item-eb0823c">$CHIBIELON Taking your bags to the moon and beyond!<\/span>',
+                              ],
+                            ],
+                          },
+                        },
+                        {
+                          behaviorName: "liquidGetElementComputedStyles",
+                          options: {
+                            includeSelf: true,
+                            getRect: true,
+                            addGhosts: true,
+                          },
+                        },
+                        {
+                          behaviorName: "liquidAnimations",
+                          options: {
+                            domain: "inview",
+                            trigger: "ghost",
+                            duration: 0.65,
+                            ease: "expo.out",
+                            stagger: { each: 0.065, from: "start" },
+                            delay: 0,
+                            start: "top+=30px bottom",
+                            startElementOffset: 0,
+                            startViewportOffset: 0,
+                            animations: [
+                              {
+                                elements: "self",
+                                breakpointsKeyframes: {
+                                  all: {
+                                    keyframes: [
+                                      {
+                                        scaleX: 1,
+                                        scaleY: 1,
+                                        skewX: 0,
+                                        skewY: 0,
+                                        x: "0px",
+                                        y: "0px",
+                                        z: "0px",
+                                        rotateX: 0,
+                                        rotateY: 0,
+                                        rotateZ: 0,
+                                        opacity: 1,
+                                      },
+                                    ],
+                                  },
+                                },
+                              },
+                            ],
+                          },
+                        },
+                      ],
+                    });
+                  </script>
+                  <div
+                    class="elementor-element elementor-element-da50f7c lqd-text-tag-p elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-lqd-text"
+                    data-id="da50f7c"
+                    data-element_type="widget"
+                    data-widget_type="lqd-text.default"
+                    data-lqd-has-inner-animatables="true"
+                  >
+                    <div class="elementor-widget-container">
+                      <p
+                        class="lqd-text-el m-0 p-0"
+                        data-lqd-split-text-el="1"
+                        data-lqd-split-type="words"
+                      >
+                        <span
+                          class="lqd-text-item relative elementor-repeater-item-8c84f3c"
+                          ><span
+                            class="lqd-split-text-words inline-flex bg-inherit relative"
+                            data-lqd-inner-animatable-el
+                          >
+                            <ca
+                              >4i9269mwWhkEZXvY6fkQEPun5Vf8QtwiuEHAwgvFpump</ca
+                            >
+                          </span></span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <style>
+                    .elementor-element-da50f7c .lqd-split-text-words {
+                      transform: translate3d(0px, 20px, 0px) scale(1, 1)
+                        rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+                        skew(0deg, 0deg);
+                      opacity: 0;
+                    }
+                  </style>
+                  <script>
+                    window.liquid.behaviors.push({
+                      dataId: "da50f7c",
+                      behaviors: [
+                        {
+                          behaviorName: "liquidSplitText",
+                          options: {
+                            splitDoneFromBackend: true,
+                            splitType: "words",
+                          },
+                        },
+                        {
+                          behaviorName: "liquidGetElementComputedStyles",
+                          options: {
+                            includeSelf: true,
+                            getRect: true,
+                            addGhosts: true,
+                          },
+                        },
+                        {
+                          behaviorName: "liquidAnimations",
+                          options: {
+                            domain: "inview",
+                            trigger: "ghost",
+                            duration: 0.65,
+                            ease: "expo.out",
+                            stagger: { each: 0.03, from: "start" },
+                            delay: 0.3,
+                            start: "top+=30px bottom",
+                            startElementOffset: 0,
+                            startViewportOffset: 0,
+                            animations: [
+                              {
+                                elements: "selfAnimatables",
+                                breakpointsKeyframes: {
+                                  all: {
+                                    keyframes: [
+                                      {
+                                        scaleX: 1,
+                                        scaleY: 1,
+                                        skewX: 0,
+                                        skewY: 0,
+                                        x: "0px",
+                                        y: "0px",
+                                        z: "0px",
+                                        rotateX: 0,
+                                        rotateY: 0,
+                                        rotateZ: 0,
+                                        opacity: 1,
+                                      },
+                                    ],
+                                  },
+                                },
+                              },
+                            ],
+                          },
+                        },
+                      ],
+                    });
+                  </script>
+                  <div
+                    class="elementor-element elementor-element-1fa1eaf elementor-widget elementor-widget-lqd-button"
+                    data-id="1fa1eaf"
+                    data-element_type="widget"
+                    data-widget_type="lqd-button.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <a
+                        href="https://pump.fun/coin/4i9269mwWhkEZXvY6fkQEPun5Vf8QtwiuEHAwgvFpump"
+                        role="button"
+                        class="lqd-btn inline-flex items-center relative lqd-group lqd-group-btn"
+                        data-lqd-local-scroll-el=""
+                        ><span
+                          class="lqd-outline-glow lqd-outline-glow-effect-1 inline-block rounded-inherit absolute pointer-events-none"
+                        >
+                          <span
+                            class="lqd-outline-glow-inner inline-block min-w-full min-h-full rounded-inherit aspect-square absolute top-1/2 start-1/2"
+                          ></span> </span
+                        ><span class="lqd-btn-txt relative z-1">Buy now</span
+                        ><span
+                          class="lqd-btn-icon inline-flex items-center justify-center relative z-1"
+                          ><svg
+                            aria-hidden="true"
+                            class="w-1em h-auto align-middle fill-current relative e-font-icon-svg e-fas-chart-line"
+                            viewBox="0 0 512 512"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M496 384H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zM464 96H345.94c-21.38 0-32.09 25.85-16.97 40.97l32.4 32.4L288 242.75l-73.37-73.37c-12.5-12.5-32.76-12.5-45.25 0l-68.69 68.69c-6.25 6.25-6.25 16.38 0 22.63l22.62 22.62c6.25 6.25 16.38 6.25 22.63 0L192 237.25l73.37 73.37c12.5 12.5 32.76 12.5 45.25 0l96-96 32.4 32.4c15.12 15.12 40.97 4.41 40.97-16.97V112c.01-8.84-7.15-16-15.99-16z"
+                            ></path></svg></span
+                      ></a>
+                    </div>
+                  </div>
+                  <style>
+                    .elementor-element-1fa1eaf {
+                      transform: translate3d(0px, 30px, 0px) scale(1, 1)
+                        rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+                        skew(0deg, 0deg);
+                      opacity: 0;
+                    }
+                  </style>
+                  <script>
+                    window.liquid.behaviors.push({
+                      dataId: "1fa1eaf",
+                      behaviors: [
+                        {
+                          behaviorName: "liquidGetElementComputedStyles",
+                          options: {
+                            includeSelf: true,
+                            getRect: true,
+                            addGhosts: true,
+                          },
+                        },
+                        {
+                          behaviorName: "liquidAnimations",
+                          options: {
+                            domain: "inview",
+                            trigger: "ghost",
+                            duration: 0.65,
+                            ease: "expo.out",
+                            stagger: { each: 0.065, from: "start" },
+                            delay: 0.55,
+                            start: "top+=30px bottom",
+                            startElementOffset: 0,
+                            startViewportOffset: 0,
+                            animations: [
+                              {
+                                elements: "self",
+                                breakpointsKeyframes: {
+                                  all: {
+                                    keyframes: [
+                                      {
+                                        scaleX: 1,
+                                        scaleY: 1,
+                                        skewX: 0,
+                                        skewY: 0,
+                                        x: "0px",
+                                        y: "0px",
+                                        z: "0px",
+                                        rotateX: 0,
+                                        rotateY: 0,
+                                        rotateZ: 0,
+                                        opacity: 1,
+                                      },
+                                    ],
+                                  },
+                                },
+                              },
+                            ],
+                          },
+                        },
+                      ],
+                    });
+                  </script>
+                </div>
+              </div>
+              <div
+                class="elementor-element elementor-element-edd3c56 e-flex e-con-boxed e-con e-parent"
+                data-id="edd3c56"
+                data-element_type="container"
+              >
+                <div class="e-con-inner">
+                  <div
+                    class="elementor-element elementor-element-0e1bb94 elementor-absolute elementor-widget elementor-widget-lqd-glow"
+                    data-id="0e1bb94"
+                    data-element_type="widget"
+                    data-settings='{"_position":"absolute"}'
+                    data-widget_type="lqd-glow.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <svg
+                        class="w-full h-full"
+                        width="65"
+                        height="65"
+                        viewBox="0 0 65 65"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="none"
+                      >
+                        <circle
+                          cx="32.5"
+                          cy="32.5"
+                          r="32.5"
+                          fill="url(#paint_0e1bb94)"
+                        />
+                        <defs>
+                          <linearGradient
+                            id="paint_0e1bb94"
+                            x1="0"
+                            y1="0"
+                            x2="65"
+                            y2="65"
+                            gradientUnits="userSpaceOnUse"
+                          >
+                            <stop offset="0" stop-color="#D25EA4">
+                              <animate
+                                attributeName="stop-color"
+                                values="#D25EA4;#b185fe;#D25EA4;"
+                                dur="5s"
+                                repeatCount="indefinite"
+                              ></animate>
+                            </stop>
+                            <stop offset="1" stop-color="#5E6AD2">
+                              <animate
+                                attributeName="stop-color"
+                                values="#5E6AD2;#6ed5fb;#5E6AD2;"
+                                dur="3s"
+                                repeatCount="indefinite"
+                              ></animate>
+                            </stop>
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="elementor-element elementor-element-5da9617 elementor-absolute elementor-widget elementor-widget-lqd-glow"
+                    data-id="5da9617"
+                    data-element_type="widget"
+                    data-settings='{"_position":"absolute"}'
+                    data-widget_type="lqd-glow.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <svg
+                        class="w-full h-full"
+                        width="65"
+                        height="65"
+                        viewBox="0 0 65 65"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="none"
+                      >
+                        <circle
+                          cx="32.5"
+                          cy="32.5"
+                          r="32.5"
+                          fill="url(#paint_5da9617)"
+                        />
+                        <defs>
+                          <linearGradient
+                            id="paint_5da9617"
+                            x1="0"
+                            y1="0"
+                            x2="65"
+                            y2="65"
+                            gradientUnits="userSpaceOnUse"
+                          >
+                            <stop offset="0" stop-color="#D25EA4">
+                              <animate
+                                attributeName="stop-color"
+                                values="#D25EA4;#b185fe;#D25EA4;"
+                                dur="7s"
+                                repeatCount="indefinite"
+                              ></animate>
+                            </stop>
+                            <stop offset="1" stop-color="#5E6AD2">
+                              <animate
+                                attributeName="stop-color"
+                                values="#5E6AD2;#6ed5fb;#5E6AD2;"
+                                dur="7s"
+                                repeatCount="indefinite"
+                              ></animate>
+                            </stop>
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="elementor-element elementor-element-f76c622 elementor-widget__width-initial elementor-widget elementor-widget-html"
+                    data-id="f76c622"
+                    data-element_type="widget"
+                    data-widget_type="html.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <style>
+                        #dexscreener-embed {
+                          position: relative;
+                          width: 100%;
+                          padding-bottom: 125%;
+                        }
+
+                        @media (min-width: 1400px) {
+                          #dexscreener-embed {
+                            padding-bottom: 65%;
+                          }
+                        }
+
+                        #dexscreener-embed iframe {
+                          position: absolute;
+                          width: 100%;
+                          height: 100%;
+                          top: 0;
+                          left: 0;
+                          border: 0;
+                        }
+                      </style>
+                      <div
+                        class="elementor-element elementor-element-4c4002e e-con-full e-flex e-con e-child"
+                        data-id="4c4002e"
+                        data-element_type="container"
+                      >
+                        <div
+                          class="elementor-element elementor-element-d5f98aa hue-overlay-image elementor-invisible elementor-widget elementor-widget-image"
+                          data-id="d5f98aa"
+                          data-element_type="widget"
+                          data-settings='{"sticky":"top","sticky_parent":"yes","_animation":"bounceIn","sticky_on":["desktop","tablet","mobile"],"sticky_offset":0,"sticky_effects_offset":0}'
+                          data-widget_type="image.default"
+                        >
+                          <div class="elementor-widget-container">
+                            <!-- Tweet Container with custom styling -->
+                            <div
+                              class="tweet-container"
+                              style="max-width: 550px; margin: 0 auto"
+                            >
+                              <!-- Primary Tweet -->
+                              <blockquote class="twitter-tweet" data-dnt="true">
+                                <p lang="en" dir="ltr">
+                                  What is Chibi Elon? Chibi Elon tiny genius
+                                  with big dreams—rockets, EV vibes, and space
+                                  energy packed into one cute cosmic icon.
+                                </p>
+                                &mdash; Elon Musk (@elonmusk)
+                                <a
+                                  href="https://twitter.com/elonmusk/status/2034638595190149195"
+                                  >March 19, 2026</a
+                                >
+                              </blockquote>
+                              <!-- Twitter Widget Script -->
+                              <script
+                                async
+                                src="https://platform.twitter.com/widgets.js"
+                                charset="utf-8"
+                              ></script>
+                            </div>
+
+                            <!-- Optional: Add custom styling -->
+                            <style>
+                              .tweet-container {
+                                background: #fff;
+                                border-radius: 12px;
+                                padding: 15px;
+                                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                              }
+                              .twitter-tweet {
+                                margin: 0 auto !important;
+                              }
+                            </style>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <style>
+                    .elementor-element-f76c622 {
+                      transform: translate3d(0px, 100vh, 0px) scale(1, 1)
+                        rotateX(90deg) rotateY(0deg) rotateZ(0deg)
+                        skew(0deg, 0deg);
+                      opacity: 0;
+                    }
+                  </style>
+                  <script>
+                    window.liquid.behaviors.push({
+                      dataId: "f76c622",
+                      behaviors: [
+                        {
+                          behaviorName: "liquidGetElementComputedStyles",
+                          options: {
+                            includeSelf: true,
+                            getRect: true,
+                            addGhosts: true,
+                          },
+                        },
+                        {
+                          behaviorName: "liquidAnimations",
+                          options: {
+                            domain: "parallax",
+                            trigger: "topParentContainer",
+                            ease: "linear",
+                            scrub: 1,
+                            start: "top bottom",
+                            end: "center center",
+                            startElementOffset: 0,
+                            startViewportOffset: 0,
+                            endElementOffset: 0,
+                            endViewportOffset: 20,
+                            animations: [
+                              {
+                                elements: "self",
+                                breakpointsKeyframes: {
+                                  all: {
+                                    keyframes: [
+                                      {
+                                        scaleX: 1,
+                                        scaleY: 1,
+                                        skewX: 0,
+                                        skewY: 0,
+                                        x: "0px",
+                                        y: "0px",
+                                        z: "0px",
+                                        rotateX: 0,
+                                        rotateY: 0,
+                                        rotateZ: 0,
+                                        opacity: 1,
+                                      },
+                                    ],
+                                  },
+                                },
+                              },
+                            ],
+                          },
+                        },
+                      ],
+                    });
+                  </script>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.lqd-contents -->
+        </div>
+      </main>
+      <footer
+        class="lqd-site-footer"
+        id="lqd-page-footer-wrap"
+        itemscope="itemscope"
+        itemtype="https://schema.org/WPFooter"
+      >
+        <div id="lqd-page-footer" data-lqd-view="liquidPageFooter">
+          <style id="elementor-post-347">
+            .elementor-347 .elementor-element.elementor-element-44a1d3f {
+            	--display: flex;
+            	--flex-direction: column;
+            	--container-widget-width: calc((1 - var(--container-widget-flex-grow)) * 100%);
+            	--container-widget-height: initial;
+            	--container-widget-flex-grow: 0;
+            	--container-widget-align-self: initial;
+            	--flex-wrap-mobile: wrap;
+            	--align-items: center;
+            	--gap: 60px 60px;
+            	--row-gap: 60px;
+            	--column-gap: 60px;
+            	--padding-top: 160px;
+            	--padding-bottom: 120px;
+            	--padding-left: 10px;
+            	--padding-right: 10px;
+            }
+
+            	{
+            		{
+            		SELECTOR
+            	}
+            }
+
+            .elementor-repeater-item-6f8f557-44a1d3f {
+            	background: linear-gradient(122deg, #FFFFFF00 0%, #FFFFFD4C 29.464285714285715%, #FFFFFF00 58.04%);
+            	opacity: 0.25;
+            }
+
+            .elementor-347 .elementor-element.elementor-element-87b10fb {
+            	--lqd-tr-enter-duration: 0.65s;
+            	width: 100%;
+            	max-width: 100%;
+            	--lqd-tr-leave-duration: 0.65s;
+            	text-align: center;
+            }
+
+            .elementor-347 .elementor-element.elementor-element-87b10fb .lqd-text-rotator-items {
+            	white-space: nowrap;
+            }
+
+            .elementor-347 .elementor-element.elementor-element-87b10fb .lqd-text-rotator-el {
+            	font-family: "Orbitron", Sans-serif;
+            	font-size: 80px;
+            }
+
+            .elementor-347 .elementor-element.elementor-element-dd983c1 {
+            	--display: flex;
+            	--flex-direction: row;
+            	--container-widget-width: initial;
+            	--container-widget-height: 100%;
+            	--container-widget-flex-grow: 1;
+            	--container-widget-align-self: stretch;
+            	--flex-wrap-mobile: wrap;
+            	--justify-content: center;
+            	--gap: 30px 30px;
+            	--row-gap: 30px;
+            	--column-gap: 30px;
+            }
+
+            .elementor-347 .elementor-element.elementor-element-3aab526 .lqd-btn {
+            	font-family: "Orbitron", Sans-serif;
+            	--lqd-btn-i-mt: 0px;
+            	--lqd-btn-i-me: 0px;
+            	--lqd-btn-i-mb: 0px;
+            	--lqd-btn-i-ms: 8px;
+            }
+
+            	{
+            		{
+            		SELECTOR
+            	}
+            }
+
+            .elementor-repeater-item-4217e09-27c32c0 {
+            	background: radial-gradient(ellipse at 50% 20%, #93A8C73B 0%, #34374B00 100%);
+            }
+
+            .elementor-347 .elementor-element.elementor-element-27c32c0 .lqd-btn {
+            	font-family: "Orbitron", Sans-serif;
+            	box-shadow: 0px 1px 1px 0px rgba(255, 255, 255, 0.1803921568627451) inset;
+            	--lqd-btn-i-mt: 0px;
+            	--lqd-btn-i-me: 0px;
+            	--lqd-btn-i-mb: 0px;
+            	--lqd-btn-i-ms: 8px;
+            }
+
+            .elementor-widget-lqd-image .lqd-image-caption {
+            	color: var(--e-global-liquid-color-text);
+            }
+
+            .elementor-347 .elementor-element.elementor-element-38f5486>.elementor-widget-container {
+            	margin: 60px 0px 0px 0px;
+            }
+
+            @media(max-width:1024px) {
+            	.elementor-347 .elementor-element.elementor-element-87b10fb .lqd-text-rotator-el {
+            		font-size: 60px;
+            	}
+            }
+
+            @media(max-width:767px) {
+            	.elementor-347 .elementor-element.elementor-element-87b10fb .lqd-text-rotator-items {
+            		white-space: normal;
+            	}
+
+            	.elementor-347 .elementor-element.elementor-element-87b10fb .lqd-text-rotator-el {
+            		font-size: 45px;
+            	}
+
+            	.elementor-347 .elementor-element.elementor-element-38f5486>.elementor-widget-container {
+            		margin: 20px 0px 20px 0px;
+            	}
+
+            	.elementor-347 .elementor-element.elementor-element-44a1d3f {
+            		--gap: 40px 40px;
+            		--row-gap: 40px;
+            		--column-gap: 40px;
+            		--padding-top: 120px;
+            		--padding-bottom: 80px;
+            		--padding-left: 10px;
+            		--padding-right: 10px;
+            	}
+            }
+
+            @media(min-width:768px) {
+            	.elementor-347 .elementor-element.elementor-element-dd983c1 {
+            		--width: 50%;
+            	}
+            }
+
+            @media(max-width:1024px) and (min-width:768px) {
+            	.elementor-347 .elementor-element.elementor-element-dd983c1 {
+            		--width: 100%;
+            	}
+            }
+
+            .elementor-347 .elementor-element.elementor-element-67e7292 img {
+            	max-width: 250px
+            }
+
+            .elementor-347 .elementor-element.elementor-element-67e7292 img {
+            	max-width: 250px
+            }
+          </style>
+          <div
+            data-elementor-type="wp-post"
+            data-elementor-id="347"
+            class="elementor elementor-347"
+          >
+            <div
+              class="elementor-element elementor-element-44a1d3f e-flex e-con-boxed e-con e-parent"
+              data-id="44a1d3f"
+              data-element_type="container"
+            >
+              <div class="e-con-inner">
+                <div
+                  class="elementor-element elementor-element-87b10fb elementor-widget__width-inherit elementor-widget elementor-widget-lqd-text-rotator"
+                  data-id="87b10fb"
+                  data-element_type="widget"
+                  data-widget_type="lqd-text-rotator.default"
+                  data-lqd-text-rotator-initiated="false"
+                >
+                  <div class="elementor-widget-container">
+                    <h2 class="lqd-text-rotator-el m-0 p-0 transition-all">
+                      Supercharge
+                      <span class="block">
+                        <span
+                          data-lqd-inner-animatable-el="true"
+                          class="lqd-text-rotator-items inline-grid transition-all"
+                          ><span
+                            class="lqd-text-rotator-item elementor-repeater-item-14c10cc flex grid-area-1-1 w-fit relative lqd-is-active"
+                            >your bag</span
+                          ><span
+                            class="lqd-text-rotator-item elementor-repeater-item-16c39f0 flex grid-area-1-1 w-fit relative"
+                            >your profits</span
+                          ><span
+                            class="lqd-text-rotator-item elementor-repeater-item-0a007e1 flex grid-area-1-1 w-fit relative"
+                            >your life</span
+                          ></span
+                        >
+                      </span>
+                    </h2>
+                  </div>
+                </div>
+                <script>
+                  window.liquid.behaviors.push({
+                    dataId: "87b10fb",
+                    behaviors: [
+                      {
+                        behaviorName: "liquidGetElementComputedStyles",
+                        options: {
+                          getRect: true,
+                          includeSelf: true,
+                          elementsSelector: ".lqd-text-rotator-item",
+                        },
+                      },
+                      {
+                        behaviorName: "liquidTextRotator",
+                        options: {
+                          stayDuration: 3,
+                          leaveDuration: null,
+                          enterDuration: 0.65,
+                        },
+                      },
+                    ],
+                  });
+                </script>
+                <div
+                  class="elementor-element elementor-element-dd983c1 e-con-full e-flex e-con e-child"
+                  data-id="dd983c1"
+                  data-element_type="container"
+                >
+                  <div
+                    class="elementor-element elementor-element-3aab526 elementor-widget elementor-widget-lqd-button"
+                    data-id="3aab526"
+                    data-element_type="widget"
+                    data-widget_type="lqd-button.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <a
+                        target="_blank"
+                        href="https://pump.fun/coin/4i9269mwWhkEZXvY6fkQEPun5Vf8QtwiuEHAwgvFpump"
+                        role="button"
+                        class="lqd-btn inline-flex items-center relative lqd-group lqd-group-btn"
+                        data-lqd-local-scroll-el=""
+                        ><span class="lqd-btn-txt relative z-1">Buy Now</span
+                        ><span
+                          class="lqd-btn-icon inline-flex items-center justify-center relative z-1"
+                          ><svg
+                            class="lqd-akar-icon w-1em h-auto lqd-menu-icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="36"
+                            height="36"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M8 4l8 8-8 8"></path></svg></span
+                      ></a>
+                    </div>
+                  </div>
+                  <style>
+                    .elementor-element-3aab526 {
+                      transform: translate3d(0px, 30px, 0px) scale(1, 1)
+                        rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+                        skew(0deg, 0deg);
+                      opacity: 0;
+                    }
+                  </style>
+                  <script>
+                    window.liquid.behaviors.push({
+                      dataId: "3aab526",
+                      behaviors: [
+                        {
+                          behaviorName: "liquidGetElementComputedStyles",
+                          options: {
+                            includeSelf: true,
+                            getRect: true,
+                            addGhosts: true,
+                          },
+                        },
+                        {
+                          behaviorName: "liquidAnimations",
+                          options: {
+                            domain: "inview",
+                            trigger: "ghost",
+                            duration: 0.65,
+                            ease: "expo.out",
+                            stagger: { each: 0.065, from: "start" },
+                            delay: 0,
+                            start: "top+=30px bottom",
+                            startElementOffset: 0,
+                            startViewportOffset: 0,
+                            animations: [
+                              {
+                                elements: "self",
+                                breakpointsKeyframes: {
+                                  all: {
+                                    keyframes: [
+                                      {
+                                        scaleX: 1,
+                                        scaleY: 1,
+                                        skewX: 0,
+                                        skewY: 0,
+                                        x: "0px",
+                                        y: "0px",
+                                        z: "0px",
+                                        rotateX: 0,
+                                        rotateY: 0,
+                                        rotateZ: 0,
+                                        opacity: 1,
+                                      },
+                                    ],
+                                  },
+                                },
+                              },
+                            ],
+                          },
+                        },
+                      ],
+                    });
+                  </script>
+                  <div
+                    class="elementor-element elementor-element-27c32c0 elementor-widget elementor-widget-lqd-button"
+                    data-id="27c32c0"
+                    data-element_type="widget"
+                    data-widget_type="lqd-button.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <a
+                        target="_blank"
+                        href="https://x.com/i/communities/2034626507839348967"
+                        role="button"
+                        class="lqd-btn inline-flex items-center relative lqd-group lqd-group-btn lqd-btn-has-bg"
+                        data-lqd-local-scroll-el=""
+                        ><span
+                          class="lqd-bg-layer lqd-color-wrap lqd-bg-color-wrap block w-full h-full rounded-inherit overflow-hidden elementor-repeater-item-4217e09-27c32c0 absolute top-0 start-0 z-0"
+                        ></span
+                        ><span class="lqd-btn-txt relative z-1"
+                          >Join Community</span
+                        ><span
+                          class="lqd-btn-icon inline-flex items-center justify-center relative z-1"
+                          ><svg
+                            class="lqd-akar-icon w-1em h-auto lqd-menu-icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="36"
+                            height="36"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M8 4l8 8-8 8"></path></svg></span
+                      ></a>
+                    </div>
+                  </div>
+                  <style>
+                    .elementor-element-27c32c0 {
+                      transform: translate3d(0px, 30px, 0px) scale(1, 1)
+                        rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+                        skew(0deg, 0deg);
+                      opacity: 0;
+                    }
+                  </style>
+                  <script>
+                    window.liquid.behaviors.push({
+                      dataId: "27c32c0",
+                      behaviors: [
+                        {
+                          behaviorName: "liquidGetElementComputedStyles",
+                          options: {
+                            includeSelf: true,
+                            getRect: true,
+                            addGhosts: true,
+                          },
+                        },
+                        {
+                          behaviorName: "liquidAnimations",
+                          options: {
+                            domain: "inview",
+                            trigger: "ghost",
+                            duration: 0.65,
+                            ease: "expo.out",
+                            stagger: { each: 0.065, from: "start" },
+                            delay: 0.1,
+                            start: "top+=30px bottom",
+                            startElementOffset: 0,
+                            startViewportOffset: 0,
+                            animations: [
+                              {
+                                elements: "self",
+                                breakpointsKeyframes: {
+                                  all: {
+                                    keyframes: [
+                                      {
+                                        scaleX: 1,
+                                        scaleY: 1,
+                                        skewX: 0,
+                                        skewY: 0,
+                                        x: "0px",
+                                        y: "0px",
+                                        z: "0px",
+                                        rotateX: 0,
+                                        rotateY: 0,
+                                        rotateZ: 0,
+                                        opacity: 1,
+                                      },
+                                    ],
+                                  },
+                                },
+                              },
+                            ],
+                          },
+                        },
+                      ],
+                    });
+                  </script>
+                </div>
+                <div
+                  class="elementor-element elementor-element-38f5486 elementor-widget elementor-widget-lqd-image"
+                  data-id="38f5486"
+                  data-element_type="widget"
+                  data-widget_type="lqd-image.default"
+                >
+                  <div class="elementor-widget-container">
+                    <figure
+                      class="inline-block relative align-middle overflow-hidden lqd-transform-perspective transition-colors"
+                      data-lqd-look-at-mouse
+                      data-lqd-hover3d-el
+                    >
+                      <img
+                        width="1440"
+                        height="2"
+                        src="/line-sep.svg"
+                        class="attachment-full size-full wp-image-127"
+                        alt=""
+                      />
+                    </figure>
+                  </div>
+                </div>
+                <style>
+                  .elementor-element-38f5486 {
+                    transform: translate3d(0px, 0px, 0px) scale(0, 1)
+                      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+                  }
+                </style>
+                <script>
+                  window.liquid.behaviors.push({
+                    dataId: "38f5486",
+                    behaviors: [
+                      {
+                        behaviorName: "liquidGetElementComputedStyles",
+                        options: {
+                          includeSelf: true,
+                          getRect: true,
+                          addGhosts: true,
+                        },
+                      },
+                      {
+                        behaviorName: "liquidAnimations",
+                        options: {
+                          domain: "inview",
+                          trigger: "ghost",
+                          duration: 0.65,
+                          ease: "expo.out",
+                          stagger: { each: 0.065, from: "start" },
+                          delay: 0,
+                          start: "top+=30px bottom",
+                          startElementOffset: 0,
+                          startViewportOffset: 0,
+                          animations: [
+                            {
+                              elements: "self",
+                              breakpointsKeyframes: {
+                                all: {
+                                  keyframes: [
+                                    {
+                                      scaleX: 1,
+                                      scaleY: 1,
+                                      skewX: 0,
+                                      skewY: 0,
+                                      x: "0px",
+                                      y: "0px",
+                                      z: "0px",
+                                      rotateX: 0,
+                                      rotateY: 0,
+                                      rotateZ: 0,
+                                      opacity: 1,
+                                    },
+                                  ],
+                                },
+                              },
+                            },
+                          ],
+                        },
+                      },
+                    ],
+                  });
+                </script>
+                <div
+                  class="elementor-element elementor-element-67e7292 elementor-widget elementor-widget-lqd_site_logo"
+                  data-id="67e7292"
+                  data-element_type="widget"
+                  data-widget_type="lqd_site_logo.default"
+                >
+                  <div class="elementor-widget-container">
+                    <a class="lqd-logo flex p-0 relative" href="/" rel="home">
+                      <img
+                        class="lqd-logo-default"
+                        src="/wp-content/caption.png"
+                        alt="logo"
+                    /></a>
+                  </div>
+                </div>
+                <style>
+                  .elementor-element-67e7292 {
+                    transform: translate3d(0px, 30px, 0px) scale(1, 1)
+                      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+                    opacity: 0;
+                  }
+                </style>
+                <script>
+                  window.liquid.behaviors.push({
+                    dataId: "67e7292",
+                    behaviors: [
+                      {
+                        behaviorName: "liquidGetElementComputedStyles",
+                        options: {
+                          includeSelf: true,
+                          getRect: true,
+                          addGhosts: true,
+                        },
+                      },
+                      {
+                        behaviorName: "liquidAnimations",
+                        options: {
+                          domain: "inview",
+                          trigger: "ghost",
+                          duration: 0.65,
+                          ease: "expo.out",
+                          stagger: { each: 0.065, from: "start" },
+                          delay: 0,
+                          start: "top+=30px bottom",
+                          startElementOffset: 0,
+                          startViewportOffset: 0,
+                          animations: [
+                            {
+                              elements: "self",
+                              breakpointsKeyframes: {
+                                all: {
+                                  keyframes: [
+                                    {
+                                      scaleX: 1,
+                                      scaleY: 1,
+                                      skewX: 0,
+                                      skewY: 0,
+                                      x: "0px",
+                                      y: "0px",
+                                      z: "0px",
+                                      rotateX: 0,
+                                      rotateY: 0,
+                                      rotateZ: 0,
+                                      opacity: 1,
+                                    },
+                                  ],
+                                },
+                              },
+                            },
+                          ],
+                        },
+                      },
+                    ],
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div id="lqd-gdpr" class="lqd-gdpr">
+        <div class="lqd-gdpr-inner">
+          <div class="lqd-gdpr-left">
+            🍪 This website uses cookies to improve your web experience.
+          </div>
+          <div class="lqd-gdpr-right">
+            <button class="lqd-gdpr-accept">Accept</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /#lqd-wrap -->
+
+    <script type="text/javascript">
+      const lazyloadRunObserver = () => {
+        const lazyloadBackgrounds = document.querySelectorAll(
+          `.e-con.e-parent:not(.e-lazyloaded)`
+        );
+        const lazyloadBackgroundObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                let lazyloadBackground = entry.target;
+                if (lazyloadBackground) {
+                  lazyloadBackground.classList.add("e-lazyloaded");
+                }
+                lazyloadBackgroundObserver.unobserve(entry.target);
+              }
+            });
+          },
+          { rootMargin: "200px 0px 200px 0px" }
+        );
+        lazyloadBackgrounds.forEach((lazyloadBackground) => {
+          lazyloadBackgroundObserver.observe(lazyloadBackground);
+        });
+      };
+      const events = ["DOMContentLoaded", "elementor/lazyload/observe"];
+      events.forEach((event) => {
+        document.addEventListener(event, lazyloadRunObserver);
+      });
+    </script>
+    <link
+      rel="stylesheet"
+      id="ctc-blocks-core-css"
+      href="/wp-content/plugins/copy-the-code/classes/blocks/assets/css/style.css?ver=4.0.4"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ctc-el-email-sample-css"
+      href="/wp-content/plugins/copy-the-code/classes/elementor/widgets/email-sample/style.css?ver=4.0.4"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ctc-blocks-css"
+      href="/wp-content/plugins/copy-the-code/classes/blocks/assets/css/style.css?ver=4.0.4"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ctc-el-email-address-css"
+      href="/wp-content/plugins/copy-the-code/classes/elementor/widgets/email-address/style.css?ver=4.0.4"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ctc-el-phone-number-css"
+      href="/wp-content/plugins/copy-the-code/classes/elementor/widgets/phone-number/style.css?ver=4.0.4"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ctc-el-copy-icon-css"
+      href="/wp-content/plugins/copy-the-code/classes/elementor/widgets/copy-icon/style.css?ver=4.0.4"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ctc-el-blockquote-css"
+      href="/wp-content/plugins/copy-the-code/classes/elementor/widgets/blockquote/style.css?ver=4.0.4"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ctc-el-code-snippet-css"
+      href="/wp-content/plugins/copy-the-code/classes/elementor/widgets/code-snippet/style.css?ver=4.0.4"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ctc-el-message-css"
+      href="/wp-content/plugins/copy-the-code/classes/elementor/widgets/message/style.css?ver=4.0.4"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ctc-el-wish-css"
+      href="/wp-content/plugins/copy-the-code/classes/elementor/widgets/wish/style.css?ver=4.0.4"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ctc-el-shayari-css"
+      href="/wp-content/plugins/copy-the-code/classes/elementor/widgets/shayari/style.css?ver=4.0.4"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ctc-el-sms-css"
+      href="/wp-content/plugins/copy-the-code/classes/elementor/widgets/sms/style.css?ver=4.0.4"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ctc-el-deal-css"
+      href="/wp-content/plugins/copy-the-code/classes/elementor/widgets/deal/style.css?ver=4.0.4"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ctc-el-coupon-css"
+      href="/wp-content/plugins/copy-the-code/classes/elementor/widgets/coupon/style.css?ver=4.0.4"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ctc-el-ai-prompt-generator-css"
+      href="/wp-content/plugins/copy-the-code/classes/elementor/widgets/ai-prompt-generator/style.css?ver=4.0.4"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ctc-el-table-css"
+      href="/wp-content/plugins/copy-the-code/classes/elementor/widgets/table/style.css?ver=4.0.4"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ctc-el-contact-information-css"
+      href="/wp-content/plugins/copy-the-code/classes/elementor/widgets/contact-information/style.css?ver=4.0.4"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-icons-akar-icons-css"
+      href="/wp-content/themes/aihub/liquid/extensions/menu-icons/vendor/codeinwp/icon-picker/css/types/akar-icons.min.css?ver=1.1.21"
+      media="all"
+    />
+    <script
+      src="/wp-content/plugins/copy-the-code/assets/js/clipboard.js?ver=4.0.4"
+      id="ctc-clipboard-js"
+    ></script>
+    <script
+      src="/wp-content/plugins/copy-the-code/assets/js/copy-inline.js?ver=4.0.4"
+      id="ctc-copy-inline-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/vendors/fastdom/fastdom.min.js"
+      id="fastdom-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/vendors/fastdom/fastdom-promised.js"
+      id="fastdom-promised-js"
+    ></script>
+    <script
+      src="/wp-includes/js/underscore.min.js?ver=1.13.7"
+      id="underscore-js"
+    ></script>
+    <script
+      src="/wp-includes/js/backbone.min.js?ver=1.6.0"
+      id="backbone-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/vendors/backbone-native/backbone.native.min.js"
+      id="backbone-native-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/vendors/gsap/minified/gsap.min.js"
+      id="gsap-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/vendors/gsap/minified/ScrollTrigger.min.js"
+      id="gsap-scrolltrigger-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/vendors/gsap/minified/ScrollToPlugin.min.js"
+      id="gsap-scrollto-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/vendors/gsap/minified/DrawSVGPlugin.min.js"
+      id="gsap-draw-svg-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/lib/consts.js"
+      id="LiquidLibConsts-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/utils/collide.js"
+      id="LiquidUtilsCollide-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/utils/colors.js"
+      id="LiquidUtilsColors-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/utils/getElementFromString.js"
+      id="LiquidUtilsGetElementFromString-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/utils/getSize.js"
+      id="LiquidUtilsGetSize-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/utils/modulo.js"
+      id="LiquidUtilsModulo-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/models/base.js"
+      id="LiquidModelsBase-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/models/widgets/base.js"
+      id="LiquidModelsWidgetsBase-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/views/base.js"
+      id="LiquidModelsViewsBase-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/behaviors/base.js"
+      id="LiquidBehaviorsBase-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/app.js"
+      id="LiquidApp-js"
+    ></script>
+    <script
+      src="/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.26.3"
+      id="elementor-webpack-runtime-js"
+    ></script>
+    <script
+      src="/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.26.3"
+      id="elementor-frontend-modules-js"
+    ></script>
+    <script
+      src="/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"
+      id="jquery-ui-core-js"
+    ></script>
+    <script id="elementor-frontend-js-before">
+      var elementorFrontendConfig = {
+        environmentMode: {
+          edit: false,
+          wpPreview: false,
+          isScriptDebug: false,
+        },
+        i18n: {
+          shareOnFacebook: "Share on Facebook",
+          shareOnTwitter: "Share on Twitter",
+          pinIt: "Pin it",
+          download: "Download",
+          downloadImage: "Download image",
+          fullscreen: "Fullscreen",
+          zoom: "Zoom",
+          share: "Share",
+          playVideo: "Play Video",
+          previous: "Previous",
+          next: "Next",
+          close: "Close",
+          a11yCarouselPrevSlideMessage: "Previous slide",
+          a11yCarouselNextSlideMessage: "Next slide",
+          a11yCarouselFirstSlideMessage: "This is the first slide",
+          a11yCarouselLastSlideMessage: "This is the last slide",
+          a11yCarouselPaginationBulletMessage: "Go to slide",
+        },
+        is_rtl: false,
+        breakpoints: { xs: 0, sm: 480, md: 768, lg: 1025, xl: 1440, xxl: 1600 },
+        responsive: {
+          breakpoints: {
+            mobile: {
+              label: "Mobile Portrait",
+              value: 767,
+              default_value: 767,
+              direction: "max",
+              is_enabled: true,
+            },
+            mobile_extra: {
+              label: "Mobile Landscape",
+              value: 880,
+              default_value: 880,
+              direction: "max",
+              is_enabled: false,
+            },
+            tablet: {
+              label: "Tablet Portrait",
+              value: 1024,
+              default_value: 1024,
+              direction: "max",
+              is_enabled: true,
+            },
+            tablet_extra: {
+              label: "Tablet Landscape",
+              value: 1200,
+              default_value: 1200,
+              direction: "max",
+              is_enabled: false,
+            },
+            laptop: {
+              label: "Laptop",
+              value: 1366,
+              default_value: 1366,
+              direction: "max",
+              is_enabled: false,
+            },
+            widescreen: {
+              label: "Widescreen",
+              value: 2400,
+              default_value: 2400,
+              direction: "min",
+              is_enabled: false,
+            },
+          },
+          hasCustomBreakpoints: false,
+        },
+        version: "3.26.3",
+        is_static: false,
+        experimentalFeatures: {
+          e_font_icon_svg: true,
+          additional_custom_breakpoints: true,
+          container: true,
+          e_swiper_latest: true,
+          e_nested_atomic_repeaters: true,
+          e_onboarding: true,
+          e_css_smooth_scroll: true,
+          home_screen: true,
+          "nested-elements": true,
+          editor_v2: true,
+          e_element_cache: true,
+          "link-in-bio": true,
+          "floating-buttons": true,
+          "launchpad-checklist": true,
+        },
+        urls: {
+          assets: "\/wp-content\/plugins\/elementor\/assets\/",
+          ajaxurl: "\/wp-admin\/admin-ajax.php",
+          uploadUrl: "\/wp-content\/uploads",
+        },
+        nonces: { floatingButtonsClickTracking: "6fb41ebef2" },
+        swiperClass: "swiper",
+        settings: { page: [], editorPreferences: [] },
+        kit: {
+          body_background_background: "classic",
+          active_breakpoints: ["viewport_mobile", "viewport_tablet"],
+          global_image_lightbox: "yes",
+          lightbox_enable_counter: "yes",
+          lightbox_enable_fullscreen: "yes",
+          lightbox_enable_zoom: "yes",
+          lightbox_enable_share: "yes",
+          lightbox_title_src: "title",
+          lightbox_description_src: "description",
+        },
+        post: {
+          id: 5800,
+          title:
+            "$CHIBIELON%20%E2%80%93%20Spacecraft%20Transporting%20Astronomical%20Resources%20to%20unlock%20Human%20Interplanetary%20Possibilities%21",
+          excerpt: "",
+          featuredImage: false,
+        },
+      };
+    </script>
+    <script
+      src="/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.26.3"
+      id="elementor-frontend-js"
+    ></script>
+    <script id="liquid-theme-inline-js-extra">
+      var liquidTheme = {
+        uris: {
+          ajax: "\/wp-admin\/admin-ajax.php",
+          theme: "\/wp-content\/themes\/aihub",
+        },
+      };
+    </script>
+    <script id="liquid-theme-inline-js-before">
+      window.liquidAppOptions = {
+        layoutRegions: {
+          liquidPageHeader: {
+            el: "lqd-page-header-wrap",
+            contentWrap: "lqd-page-header",
+            behaviors: [
+              { behaviorName: "liquidStickyHeader", options: [] },
+              {
+                behaviorName: "liquidGetElementComputedStyles",
+                options: { includeSelf: true, getRect: true },
+              },
+            ],
+          },
+          liquidPageContent: {
+            el: "lqd-page-content-wrap",
+            contentWrap: "lqd-page-content",
+            behaviors: [],
+          },
+          liquidPageFooter: {
+            el: "lqd-page-footer-wrap",
+            contentWrap: "lqd-page-footer",
+          },
+        },
+        containersClassname: "e-con",
+        containersBoxedClassname: "e-con-boxed",
+        widgetsClassname: "elementor-widget",
+      };
+    </script>
+    <script
+      src="/wp-content/themes/aihub/liquid/assets/js/theme-inline.js"
+      id="liquid-theme-inline-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/behaviors/sticky-header.js"
+      id="LiquidStickyHeaderBehavior-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/vendors/liquid-gdpr/liquid-gdpr.min.js"
+      id="liquid-gdpr-box-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/vendors/typewriter-effect/typewriter-effect.js"
+      id="typewriter-effect-js"
+    ></script>
+    <script
+      src="/wp-content/plugins/copy-the-code/classes/blocks/assets/js/core.js?ver=4.0.4"
+      id="ctc-blocks-core-js"
+    ></script>
+    <script
+      src="/wp-content/plugins/copy-the-code/classes/elementor/widgets/deal/script.js?ver=4.0.4"
+      id="ctc-el-deal-js"
+    ></script>
+    <script
+      src="/wp-content/plugins/copy-the-code/classes/elementor/widgets/coupon/script.js?ver=4.0.4"
+      id="ctc-el-coupon-js"
+    ></script>
+    <script
+      src="/wp-content/plugins/copy-the-code/classes/elementor/widgets/ai-prompt-generator/script.js?ver=4.0.4"
+      id="ctc-el-ai-prompt-generator-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/vendors/lottie/lottie.min.js?ver=5.9.6"
+      id="lottie-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/behaviors/toggle.js"
+      id="LiquidToggleBehavior-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/behaviors/dropdown.js"
+      id="LiquidDropdownBehavior-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/behaviors/toggle-slide.js"
+      id="LiquidEffectsSlideToggleBehavior-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/behaviors/get-element-computed-styles.js"
+      id="LiquidGetElementComputedStylesBehavior-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/behaviors/local-scroll.js"
+      id="LiquidLocalScrollBehavior-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/vendors/tsparticles/tsparticles.bundle.min.js"
+      id="tsparticles-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/behaviors/animations.js"
+      id="LiquidAnimationsBehavior-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/behaviors/lottie.js"
+      id="LiquidLottieBehavior-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/behaviors/look-at-mouse.js"
+      id="LiquidLookAtMouseBehavior-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/behaviors/typewriter.js"
+      id="LiquidTypewriterBehavior-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/behaviors/split-text.js"
+      id="LiquidSplitTextBehavior-js"
+    ></script>
+    <script
+      src="/wp-content/themes/aihub/assets/js/minified/behaviors/text-rotator.js"
+      id="LiquidTextRotatorBehavior-js"
+    ></script>
+    <template id="lqd-temp-snickersbar">
+      <div
+        class="lqd-snickersbar flex flex-wrap lqd-snickersbar-in"
+        data-item-id
+      >
+        <div class="lqd-snickersbar-inner flex flex-wrap items-center">
+          <div class="lqd-snickersbar-detail">
+            <p
+              style="display: none"
+              class="lqd-snickersbar-addding-temp mt-0 mb-0"
+            >
+              Adding {{itemName}} to cart
+            </p>
+            <p
+              style="display: none"
+              class="lqd-snickersbar-added-temp mt-0 mb-0"
+            >
+              Added {{itemName}} to cart
+            </p>
+            <p class="lqd-snickersbar-msg flex items-center mt-0 mb-0"></p>
+            <p class="lqd-snickersbar-msg-done flex items-center mt-0 mb-0"></p>
+          </div>
+          <div class="lqd-snickersbar-ext ms-24"></div>
+        </div>
+      </div>
+    </template>
+    <div
+      class="lity"
+      role="dialog"
+      aria-label="Dialog Window (Press escape to close)"
+      tabindex="-1"
+      data-modal-type="default"
+      style="display: none"
+    >
+      <div class="lity-backdrop"></div>
+      <div class="lity-wrap" data-lity-close role="document">
+        <div class="lity-loader" aria-hidden="true">Loading...</div>
+        <div class="lity-container">
+          <div class="lity-content"></div>
+        </div>
+        <button
+          class="lity-close"
+          type="button"
+          aria-label="Close (Press escape to close)"
+          data-lity-close
+        >
+          &times;
+        </button>
+      </div>
+    </div>
+    <svg class="hidden">
+      <defs>
+        <g id="lqd-loading-spinner">
+          <path d="M22 12c0 6-4.39 10-9.806 10C7.792 22 4.24 19.665 3 16" />
+          <path d="M2 12C2 6 6.39 2 11.806 2 16.209 2 19.76 4.335 21 8" />
+          <path d="M7 17l-4-1-1 4" />
+          <path d="M17 7l4 1 1-4" />
+        </g>
+        <g id="lqd-icon-check">
+          <path d="M4 12l6 6L20 6" />
+        </g>
+        <g id="lqd-icon-chevron-left">
+          <path d="M15 4l-8 8 8 8" />
+        </g>
+        <g id="lqd-icon-chevron-right">
+          <path d="M8 4l8 8-8 8" />
+        </g>
+        <g id="lqd-icon-chevron-up">
+          <path d="M4 15l8-8 8 8" />
+        </g>
+        <g id="lqd-icon-chevron-down">
+          <path d="M4 9l8 8 8-8" />
+        </g>
+      </defs>
+    </svg>
+  </body>
+</html>
+
+<!-- Page cached by LiteSpeed Cache 6.5.4 on 2025-01-06 15:49:08 -->
